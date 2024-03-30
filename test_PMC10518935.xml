@@ -1,0 +1,3299 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+    <source>PubTator</source>
+    <date></date>
+    <key>BioC.key</key>
+    <document>
+        <id>10518935</id>
+        <passage>
+            <infon key="article-id_doi">10.1186/s13075-023-03164-x</infon>
+            <infon key="article-id_pmc">10518935</infon>
+            <infon key="article-id_pmid">37749624</infon>
+            <infon key="article-id_publisher-id">3164</infon>
+            <infon key="elocation-id">179</infon>
+            <infon key="kwd">Osteoarthritis GWAS TWAS CGSEA</infon>
+            <infon key="license">Open Access This article is licensed under a Creative Commons
+                Attribution 4.0 International License, which permits use, sharing, adaptation,
+                distribution and reproduction in any medium or format, as long as you give
+                appropriate credit to the original author(s) and the source, provide a link to the
+                Creative Commons licence, and indicate if changes were made. The images or other
+                third party material in this article are included in the article's Creative Commons
+                licence, unless indicated otherwise in a credit line to the material. If material is
+                not included in the article's Creative Commons licence and your intended use is not
+                permitted by statutory regulation or exceeds the permitted use, you will need to
+                obtain permission directly from the copyright holder. To view a copy of this
+                licence, visit http://creativecommons.org/licenses/by/4.0/. The Creative Commons
+                Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/)
+                applies to the data made available in this article, unless otherwise stated in a
+                credit line to the data.</infon>
+            <infon key="name_0">surname:Mei;given-names:Lin</infon>
+            <infon key="name_1">surname:Zhang;given-names:Zhiming</infon>
+            <infon key="name_10">surname:Ren;given-names:Xiaolei</infon>
+            <infon key="name_11">surname:Li;given-names:Zhihong</infon>
+            <infon key="name_12">surname:Mei;given-names:Lin</infon>
+            <infon key="name_13">surname:Zhang;given-names:Zhiming</infon>
+            <infon key="name_14">surname:Chen;given-names:Ruiqi</infon>
+            <infon key="name_15">surname:Liu;given-names:Zhongyue</infon>
+            <infon key="name_16">surname:Ren;given-names:Xiaolei</infon>
+            <infon key="name_17">surname:Li;given-names:Zhihong</infon>
+            <infon key="name_18">surname:Mei;given-names:Lin</infon>
+            <infon key="name_19">surname:Zhang;given-names:Zhiming</infon>
+            <infon key="name_2">surname:Chen;given-names:Ruiqi</infon>
+            <infon key="name_20">surname:Chen;given-names:Ruiqi</infon>
+            <infon key="name_21">surname:Liu;given-names:Zhongyue</infon>
+            <infon key="name_22">surname:Ren;given-names:Xiaolei</infon>
+            <infon key="name_23">surname:Li;given-names:Zhihong</infon>
+            <infon key="name_24">surname:Mei;given-names:Lin</infon>
+            <infon key="name_25">surname:Ren;given-names:Xiaolei</infon>
+            <infon key="name_26">surname:Li;given-names:Zhihong</infon>
+            <infon key="name_27">surname:Mei;given-names:Lin</infon>
+            <infon key="name_3">surname:Liu;given-names:Zhongyue</infon>
+            <infon key="name_4">surname:Ren;given-names:Xiaolei</infon>
+            <infon key="name_5">surname:Li;given-names:Zhihong</infon>
+            <infon key="name_6">surname:Mei;given-names:Lin</infon>
+            <infon key="name_7">surname:Zhang;given-names:Zhiming</infon>
+            <infon key="name_8">surname:Chen;given-names:Ruiqi</infon>
+            <infon key="name_9">surname:Liu;given-names:Zhongyue</infon>
+            <infon key="section_type">TITLE</infon>
+            <infon key="title">Keywords</infon>
+            <infon key="type">front</infon>
+            <infon key="volume">25</infon>
+            <infon key="year">2023</infon>
+            <offset>0</offset>
+            <text>Identification of candidate genes and chemicals associated with osteoarthritis by
+                transcriptome-wide association study and chemical-gene interaction analysis.</text>
+            <annotation id="1">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="64" length="14" />
+                <text>osteoarthritis</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">ABSTRACT</infon>
+            <infon key="type">abstract</infon>
+            <offset>159</offset>
+            <text>BACKGROUND: Osteoarthritis (OA) is a common degenerative joint disease and causes
+                chronic pain and disability to the elderly. Several risk factors are involved, such
+                as aging, obesity, genetic susceptibility, and environmental factors. We conducted a
+                transcriptome-wide association study (TWAS) and chemical-related gene set enrichment
+                analysis (CGSEA) to investigate the susceptibility genes and environmental factors.
+                METHODS: TWAS analysis was conducted to identify the susceptibility genes by
+                integrating the summary-level genome-wide association study data of knee OA (KOA)
+                and hip OA (HOA) with the precomputed expression weights from the Genotype-Tissue
+                Expression Project (Version 8). The FUSION software was used for both single-tissue
+                and cross-tissue TWAS, which were combined using an aggregate Cauchy association
+                test. The biological function and pathways of the TWAS genes were explored using the
+                Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO) databases, and
+                the human cartilage mRNA expression profiles were utilized to validate the TWAS
+                genes. CGSEA analysis was performed to scan the OA-associated chemicals by
+                integrating the TWAS results with the chemical-related gene sets. RESULTS: There
+                were 44 and 93 unique TWAS genes identified in 7 and 11 chromosomes for KOA and HOA,
+                respectively, fourteen and four of which showed significantly differential
+                expression in the mRNA profiles, such as CRHR1, LTBP1, WWP2, LMX1B, and PTHLH.
+                OA-related pathways were found in the KEGG and GO analysis, such as TGF-beta
+                signaling pathway, MAPK signaling pathway, hyaluronan metabolic process, and
+                chondrocyte differentiation. Forty-five OA-associated chemicals were identified,
+                including quercetin, bisphenol A, and cadmium chloride. CONCLUSIONS: Several
+                candidate OA-associated genes and chemicals were identified through TWAS and CGSEA
+                analysis, which expanded our understanding of the relationship between genes,
+                chemicals, and their impact on OA.</text>
+            <annotation id="28">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="171" length="14" />
+                <text>Osteoarthritis</text>
+            </annotation>
+            <annotation id="29">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="187" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="30">
+                <infon key="identifier">MESH:D019636</infon>
+                <infon key="type">Disease</infon>
+                <location offset="203" length="26" />
+                <text>degenerative joint disease</text>
+            </annotation>
+            <annotation id="31">
+                <infon key="identifier">MESH:D059350</infon>
+                <infon key="type">Disease</infon>
+                <location offset="241" length="12" />
+                <text>chronic pain</text>
+            </annotation>
+            <annotation id="32">
+                <infon key="identifier">MESH:D009765</infon>
+                <infon key="type">Disease</infon>
+                <location offset="335" length="7" />
+                <text>obesity</text>
+            </annotation>
+            <annotation id="33">
+                <infon key="identifier">MESH:D020370</infon>
+                <infon key="type">Disease</infon>
+                <location offset="724" length="7" />
+                <text>knee OA</text>
+            </annotation>
+            <annotation id="34">
+                <infon key="identifier">MESH:D020370</infon>
+                <infon key="type">Disease</infon>
+                <location offset="733" length="3" />
+                <text>KOA</text>
+            </annotation>
+            <annotation id="35">
+                <infon key="identifier">MESH:D015207</infon>
+                <infon key="type">Disease</infon>
+                <location offset="742" length="6" />
+                <text>hip OA</text>
+            </annotation>
+            <annotation id="36">
+                <infon key="identifier">MESH:D015207</infon>
+                <infon key="type">Disease</infon>
+                <location offset="750" length="3" />
+                <text>HOA</text>
+            </annotation>
+            <annotation id="37">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="1283" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="38">
+                <infon key="identifier">MESH:D020370</infon>
+                <infon key="type">Disease</infon>
+                <location offset="1463" length="3" />
+                <text>KOA</text>
+            </annotation>
+            <annotation id="39">
+                <infon key="identifier">MESH:D015207</infon>
+                <infon key="type">Disease</infon>
+                <location offset="1471" length="3" />
+                <text>HOA</text>
+            </annotation>
+            <annotation id="40">
+                <infon key="identifier">1394</infon>
+                <infon key="type">Gene</infon>
+                <infon key="NCBI Homologene">20920</infon>
+                <location offset="1592" length="5" />
+                <text>CRHR1</text>
+            </annotation>
+            <annotation id="41">
+                <infon key="identifier">4052</infon>
+                <infon key="type">Gene</infon>
+                <infon key="NCBI Homologene">522</infon>
+                <location offset="1599" length="5" />
+                <text>LTBP1</text>
+            </annotation>
+            <annotation id="42">
+                <infon key="identifier">11060</infon>
+                <infon key="type">Gene</infon>
+                <infon key="NCBI Homologene">48490</infon>
+                <location offset="1606" length="4" />
+                <text>WWP2</text>
+            </annotation>
+            <annotation id="43">
+                <infon key="identifier">4010</infon>
+                <infon key="type">Gene</infon>
+                <infon key="NCBI Homologene">55648</infon>
+                <location offset="1612" length="5" />
+                <text>LMX1B</text>
+            </annotation>
+            <annotation id="44">
+                <infon key="identifier">5744</infon>
+                <infon key="type">Gene</infon>
+                <infon key="NCBI Homologene">2113</infon>
+                <location offset="1623" length="5" />
+                <text>PTHLH</text>
+            </annotation>
+            <annotation id="45">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="1630" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="46">
+                <infon key="identifier">7040</infon>
+                <infon key="type">Gene</infon>
+                <infon key="NCBI Homologene">540</infon>
+                <location offset="1698" length="8" />
+                <text>TGF-beta</text>
+            </annotation>
+            <annotation id="47">
+                <infon key="identifier">MESH:D006820</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="1750" length="10" />
+                <text>hyaluronan</text>
+            </annotation>
+            <annotation id="48">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="1824" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="49">
+                <infon key="identifier">MESH:D011794</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="1875" length="9" />
+                <text>quercetin</text>
+            </annotation>
+            <annotation id="50">
+                <infon key="identifier">MESH:C006780</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="1886" length="11" />
+                <text>bisphenol A</text>
+            </annotation>
+            <annotation id="51">
+                <infon key="identifier">MESH:D019256</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="1903" length="16" />
+                <text>cadmium chloride</text>
+            </annotation>
+            <annotation id="52">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="1952" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="53">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="2134" length="2" />
+                <text>OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">INTRO</infon>
+            <infon key="type">title_1</infon>
+            <offset>2251</offset>
+            <text>Introduction</text>
+        </passage>
+        <passage>
+            <infon key="section_type">INTRO</infon>
+            <infon key="type">paragraph</infon>
+            <offset>2264</offset>
+            <text>Osteoarthritis (OA), a common degenerative joint disease, causes chronic pain and
+                disability in the elderly. According to the data from the Global Burden of Disease
+                project, the age-standardized point prevalence and annual incidence rate of OA were
+                3754.2 and 181.2 per 100,000 in 2017, with an increase of 9.3% and 8.2% from 1990,
+                respectively.</text>
+            <annotation id="1835">
+                <infon key="identifier">MESH:D019636</infon>
+                <infon key="type">Disease</infon>
+                <location offset="2294" length="26" />
+                <text>degenerative joint disease</text>
+            </annotation>
+            <annotation id="1836">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="2264" length="14" />
+                <text>Osteoarthritis</text>
+            </annotation>
+            <annotation id="1837">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="2505" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1838">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="2280" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1839">
+                <infon key="identifier">MESH:D059350</infon>
+                <infon key="type">Disease</infon>
+                <location offset="2329" length="12" />
+                <text>chronic pain</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">INTRO</infon>
+            <infon key="type">paragraph</infon>
+            <offset>2610</offset>
+            <text>While the pathogenesis of OA is not entirely explained, the risk factors for OA
+                development have been demonstrated in epidemiologic studies, such as age, obesity,
+                ethnicity, family history and genetic factors, and environmental factors. Moreover,
+                genetic factors have been reported to have a significant contribution to knee OA
+                (KOA) and hip OA (HOA), and the heritability has been estimated to be 60% for the
+                HOA and 50.4% for the KOA. Recently, genetic studies have yielded novel insights
+                into the genetic propensity of OA. Several genome-wide association studies (GWAS)
+                have identified more than 100 loci associated with OA, further elucidating the
+                genetic architecture of OA. However, the specific mechanism between those genetic
+                variants and OA has not been fully investigated. The genetic variants have been
+                demonstrated to have impact on the gene expression to further influence the
+                phenotypes, and transcriptome-wide association studies (TWAS) have offered the
+                chance to integrate the summary-level GWAS data with expression quantitative trait
+                loci (eQTL) references to identify the trait-related genes.</text>
+            <annotation id="1840">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="3286" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1841">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="2687" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1842">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="3357" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1843">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="3132" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1844">
+                <infon key="identifier">MESH:D020370</infon>
+                <infon key="type">Disease</infon>
+                <location offset="3042" length="3" />
+                <text>KOA</text>
+            </annotation>
+            <annotation id="1845">
+                <infon key="identifier">MESH:D020370</infon>
+                <infon key="type">Disease</infon>
+                <location offset="2930" length="7" />
+                <text>knee OA</text>
+            </annotation>
+            <annotation id="1846">
+                <infon key="identifier">MESH:D020370</infon>
+                <infon key="type">Disease</infon>
+                <location offset="2939" length="3" />
+                <text>KOA</text>
+            </annotation>
+            <annotation id="1847">
+                <infon key="identifier">MESH:D015207</infon>
+                <infon key="type">Disease</infon>
+                <location offset="2948" length="6" />
+                <text>hip OA</text>
+            </annotation>
+            <annotation id="1848">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="2636" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1849">
+                <infon key="identifier">MESH:D015207</infon>
+                <infon key="type">Disease</infon>
+                <location offset="3020" length="3" />
+                <text>HOA</text>
+            </annotation>
+            <annotation id="1850">
+                <infon key="identifier">MESH:D009765</infon>
+                <infon key="type">Disease</infon>
+                <location offset="2764" length="7" />
+                <text>obesity</text>
+            </annotation>
+            <annotation id="1851">
+                <infon key="identifier">MESH:D015207</infon>
+                <infon key="type">Disease</infon>
+                <location offset="2956" length="3" />
+                <text>HOA</text>
+            </annotation>
+            <annotation id="1852">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="3234" length="2" />
+                <text>OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">INTRO</infon>
+            <infon key="type">paragraph</infon>
+            <offset>3722</offset>
+            <text>Previous studies have identified the OA-associated genes by integrating the TWAS
+                results and mRNA expression profiles for HOA and KOA. However, both studies adopted
+                the skeletal muscle and blood as the eQTL references, which are not the causally
+                relevant tissue of OA. In addition, performing TWAS using the eQTL panels of
+                non-trait-related tissues leads to non-causal hits and dropped out of the real
+                causal ones, and cross-tissue TWAS has been recommended if there is no closely
+                trait-related tissue available.</text>
+            <annotation id="1853">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="3987" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1854">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="3759" length="2" />
+                <text>OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">INTRO</infon>
+            <infon key="type">paragraph</infon>
+            <offset>4235</offset>
+            <text>In the present study, we conducted both single-tissue and cross-tissue TWAS using
+                summary-level GWAS data of HOA and KOA to investigate gene-trait associations.
+                Subsequently, biological pathways of the TWAS genes were explored. Finally,
+                chemical-related gene set enrichment analysis (CGSEA) was performed to identify
+                chemicals associated with OA using the Comparative Toxicogenomics Database (CTD).</text>
+            <annotation id="1855">
+                <infon key="identifier">MESH:D015207</infon>
+                <infon key="type">Disease</infon>
+                <location offset="4344" length="3" />
+                <text>HOA</text>
+            </annotation>
+            <annotation id="1856">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="4578" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1857">
+                <infon key="identifier">MESH:D020370</infon>
+                <infon key="type">Disease</infon>
+                <location offset="4352" length="3" />
+                <text>KOA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_1</infon>
+            <offset>4634</offset>
+            <text>Methods</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_2</infon>
+            <offset>4642</offset>
+            <text>Summary-level GWAS data</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>4666</offset>
+            <text>The summary-level GWAS data were downloaded from GeneATLAS
+                (http://geneatlas.roslin.ed.ac.uk/). In this study, we adopted GWAS summary
+                statistics for HOA (M16 Coxarthrosis, Ncases = 12,868, Ncontrols = 439,396) and KOA
+                (M17 Gonarthrosis, Ncases = 21,918, Ncontrols = 430,346), with a combined sample
+                size of 452,264 individuals of European ancestry from UK Biobank. The summary-level
+                GWAS outcomes were subsequently reformatted into the.sumstats format using the
+                munge_sumstats.py program from the LD Score regression software package, which was
+                publicly accessible at https://github.com/bulik/ldsc.</text>
+            <annotation id="1858">
+                <infon key="identifier">MESH:D020370</infon>
+                <infon key="type">Disease</infon>
+                <location offset="4881" length="3" />
+                <text>KOA</text>
+            </annotation>
+            <annotation id="1859">
+                <infon key="identifier">MESH:D015207</infon>
+                <infon key="type">Disease</infon>
+                <location offset="4816" length="3" />
+                <text>HOA</text>
+            </annotation>
+            <annotation id="1860">
+                <infon key="identifier">MESH:D015207</infon>
+                <infon key="type">Disease</infon>
+                <location offset="4825" length="12" />
+                <text>Coxarthrosis</text>
+            </annotation>
+            <annotation id="1861">
+                <infon key="type">Disease</infon>
+                <location offset="4890" length="12" />
+                <text>Gonarthrosis</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_2</infon>
+            <offset>5282</offset>
+            <text>Transcriptome-wide association studies</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>5321</offset>
+            <text>In this study, we employed the FUSION software
+                (http://gusevlab.org/projects/fusion/) to conduct a summary-based TWAS using LD
+                reference data on built GRCh38 of European populations from the 1000 Genomes project
+                (version 3) downloaded from the Alkes Group website
+                (https://alkesgroup.broadinstitute.org/LDSCORE/GRCh38/). The eQTL reference panels
+                from the Genotype-Tissue Expression (GTEx) Project (version 8)
+                (https://gtexportal.org/home/datasets) were downloaded from the FUSION website.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>5811</offset>
+            <text>As there was no causally OA-related tissue reference panel, such as cartilage and
+                chondrocyte, we utilized all GTEx reference panels in the TWAS as recommended.
+                Additionally, to enhance the power of the TWAS, we performed a sparse canonical
+                correlation analysis (sCCA) TWAS with cross-tissue reference panels publicly
+                available on the FUSION website. The single-tissue TWAS and sCCA-TWAS were
+                subsequently merged using an aggregate Cauchy association test (ACAT). The
+                comprehensive analytical methodology of the sCCA-ACAT approach was demonstrated in
+                the previous study (https://github.com/fenghelian/sCCA-ACAT_TWAS).</text>
+            <annotation id="1862">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="5836" length="2" />
+                <text>OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>6429</offset>
+            <text>The TWAS was performed on the autosomal chromosomes with the default settings. A
+                strict Bonferroni-corrected P-value (P.Bonferroni) &lt; 0.05 was considered as a
+                threshold for the significant TWAS associations.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_2</infon>
+            <offset>6641</offset>
+            <text>Functional exploration of significant TWAS genes</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>6690</offset>
+            <text>To investigate the potential biological function of the identified significant
+                TWAS genes, enrichment analysis was conducted using the Kyoto Encyclopedia of Genes
+                and Genomes (KEGG) and Gene Ontology (GO) databases. The KEGG and GO enrichment
+                analysis was performed using the "clusterProfiler" R package (R Foundation for
+                Statistical Computing, Vienna, Austria; https://www.R-project.org/).</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_2</infon>
+            <offset>7085</offset>
+            <text>Gene expression dataset of cartilage</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>7122</offset>
+            <text>For KOA, the present study leveraged the gene expression dataset of cartilage
+                obtained from a previous study. This dataset comprised mRNA-sequencing data
+                extracted from knee cartilage tissue of 18 healthy donors and 20 OA patients,
+                characterizing all genes in terms of log2 fold change (FC) and an adjusted P-value.
+                To ascertain differentially expressed genes (DEGs), a significance threshold of
+                adjusted P-value &lt; 0.05 was applied.</text>
+            <annotation id="1863">
+                <infon key="identifier">9606</infon>
+                <infon key="type">Species</infon>
+                <location offset="7344" length="8" />
+                <text>patients</text>
+            </annotation>
+            <annotation id="1864">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="7341" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1865">
+                <infon key="identifier">MESH:D020370</infon>
+                <infon key="type">Disease</infon>
+                <location offset="7126" length="3" />
+                <text>KOA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>7559</offset>
+            <text>To validate the HOA TWAS genes, a total of 10 pairs of preserved and OA cartilage
+                samples (age &gt;= 73) from the Research Arthritis and Articular Cartilage study
+                were included to analyze the gene expression profile of hip joint. We used the GEO2R
+                program in Gene Expression Omnibus database (https://www.ncbi.nlm.nih.gov/geo/) to
+                find out the DEGs, with a significance threshold of P-value &lt; 0.05.</text>
+            <annotation id="1866">
+                <infon key="identifier">MESH:D025981</infon>
+                <infon key="type">Disease</infon>
+                <location offset="7775" length="3" />
+                <text>hip</text>
+            </annotation>
+            <annotation id="1867">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="7628" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1868">
+                <infon key="identifier">MESH:D001168</infon>
+                <infon key="type">Disease</infon>
+                <location offset="7679" length="9" />
+                <text>Arthritis</text>
+            </annotation>
+            <annotation id="1869">
+                <infon key="identifier">MESH:D002357</infon>
+                <infon key="type">Disease</infon>
+                <location offset="7693" length="19" />
+                <text>Articular Cartilage</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_2</infon>
+            <offset>7964</offset>
+            <text>Chemical-gene expression interaction</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>8001</offset>
+            <text>The CTD (http://ctdbase.org/) is a publicly available online database that
+                provides access to data on chemical-gene interactions, chemical-disease
+                associations, chemical-pathway associations, and chemical-phenotype associations. A
+                flexible tool (CGSEA, https://github.com/ChengSQXJTU/CGSEA) was introduced to screen
+                potential chemicals implicated in complex diseases or traits, and 11,190
+                chemical-associated gene sets were generated using 1,788,149 annotation terms of
+                chemical-gene pairs acquired from human and mice. The comprehensively analytical
+                methodology was elucidated in the previous study.</text>
+            <annotation id="1870">
+                <infon key="identifier">9606</infon>
+                <infon key="type">Species</infon>
+                <location offset="8505" length="5" />
+                <text>human</text>
+            </annotation>
+            <annotation id="1871">
+                <infon key="identifier">10090</infon>
+                <infon key="type">Species</infon>
+                <location offset="8515" length="4" />
+                <text>mice</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>8602</offset>
+            <text>In the present study, we integrated the TWAS results with the chemical-related
+                gene sets to scan the candidate chemicals associated with OA using the CGSEA program
+                with the default settings. The chemicals with both absolute value of normalized
+                enrichment score ( NES ) &gt; 1 and P-value &lt; 0.05 were considered the
+                significantly OA-associated chemicals.</text>
+            <annotation id="1872">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="8928" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1873">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="8739" length="2" />
+                <text>OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_1</infon>
+            <offset>8961</offset>
+            <text>Results</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_2</infon>
+            <offset>8969</offset>
+            <text>Transcriptome-wide association studies</text>
+        </passage>
+        <passage>
+            <infon key="file">13075_2023_3164_Fig1_HTML.jpg</infon>
+            <infon key="id">Fig1</infon>
+            <infon key="section_type">FIG</infon>
+            <infon key="type">fig_caption</infon>
+            <offset>9008</offset>
+            <text>The significant TWAS genes for knee OA with Z-scores across multiple reference
+                panels. White spaces indicated the genes did not pass the significance threshold</text>
+            <annotation id="1874">
+                <infon key="identifier">MESH:D020370</infon>
+                <infon key="type">Disease</infon>
+                <location offset="9039" length="7" />
+                <text>knee OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="file">13075_2023_3164_Fig2_HTML.jpg</infon>
+            <infon key="id">Fig2</infon>
+            <infon key="section_type">FIG</infon>
+            <infon key="type">fig_caption</infon>
+            <offset>9168</offset>
+            <text>The significant TWAS genes for hip OA with Z-scores across multiple reference
+                panels. White spaces indicated the genes did not pass the significance threshold</text>
+            <annotation id="1875">
+                <infon key="identifier">MESH:D015207</infon>
+                <infon key="type">Disease</infon>
+                <location offset="9199" length="6" />
+                <text>hip OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="file">13075_2023_3164_Fig3_HTML.jpg</infon>
+            <infon key="id">Fig3</infon>
+            <infon key="section_type">FIG</infon>
+            <infon key="type">fig_caption</infon>
+            <offset>9327</offset>
+            <text>Manhattan plots of the TWAS results. A and B showed the significant TWAS genes of
+                knee OA and hip OA, respectively, across all autosomes. The blue lines indicated the
+                significance threshold of the TWAS analysis. The labeled feature was the most
+                significant one when there were multiple features with the same ID achieving
+                significance</text>
+            <annotation id="1876">
+                <infon key="identifier">MESH:D020370</infon>
+                <infon key="type">Disease</infon>
+                <location offset="9409" length="7" />
+                <text>knee OA</text>
+            </annotation>
+            <annotation id="1877">
+                <infon key="identifier">MESH:D015207</infon>
+                <infon key="type">Disease</infon>
+                <location offset="9421" length="6" />
+                <text>hip OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="file">Tab1.xml</infon>
+            <infon key="id">Tab1</infon>
+            <infon key="section_type">TABLE</infon>
+            <infon key="type">table_caption</infon>
+            <offset>9662</offset>
+            <text>The additional significantly associated genes identified through the ACAT approach</text>
+        </passage>
+        <passage>
+            <infon key="file">Tab1.xml</infon>
+            <infon key="id">Tab1</infon>
+            <infon key="section_type">TABLE</infon>
+            <infon key="type">table</infon>
+            <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides"
+                rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="left"&gt;OA&lt;/th&gt;&lt;th
+                align="left"&gt;Symbol&lt;/th&gt;&lt;th
+                align="left"&gt;&lt;italic&gt;P&lt;/italic&gt;.ACAT&lt;/th&gt;&lt;th
+                align="left"&gt;&lt;italic&gt;P&lt;/italic&gt;.Bonferroni&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td
+                align="left" rowspan="9"&gt;Knee&lt;/td&gt;&lt;td
+                align="left"&gt;AC005152.3&lt;/td&gt;&lt;td align="left"&gt;1.71E -
+                06&lt;/td&gt;&lt;td align="left"&gt;4.90E - 02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;AL450226.2&lt;/td&gt;&lt;td align="left"&gt;1.76E -
+                07&lt;/td&gt;&lt;td align="left"&gt;5.04E - 03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;COG8&lt;/td&gt;&lt;td align="left"&gt;1.30E - 07&lt;/td&gt;&lt;td
+                align="left"&gt;3.74E - 03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;CYB5B&lt;/td&gt;&lt;td align="left"&gt;3.14E - 07&lt;/td&gt;&lt;td
+                align="left"&gt;8.98E - 03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;HIC1&lt;/td&gt;&lt;td align="left"&gt;1.11E - 07&lt;/td&gt;&lt;td
+                align="left"&gt;3.18E - 03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;RP1-221C16.8&lt;/td&gt;&lt;td align="left"&gt;9.64E -
+                07&lt;/td&gt;&lt;td align="left"&gt;2.76E - 02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;RP11-234K24.3&lt;/td&gt;&lt;td align="left"&gt;5.32E -
+                07&lt;/td&gt;&lt;td align="left"&gt;1.52E - 02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;RP11-419C5.2&lt;/td&gt;&lt;td align="left"&gt;1.73E -
+                06&lt;/td&gt;&lt;td align="left"&gt;4.94E - 02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;RP11-667K14.3&lt;/td&gt;&lt;td align="left"&gt;3.33E -
+                08&lt;/td&gt;&lt;td align="left"&gt;9.53E - 04&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left" rowspan="19"&gt;Hip&lt;/td&gt;&lt;td
+                align="left"&gt;ALAS1&lt;/td&gt;&lt;td align="left"&gt;2.49E - 07&lt;/td&gt;&lt;td
+                align="left"&gt;7.13E - 03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;ALG1L11P&lt;/td&gt;&lt;td align="left"&gt;1.17E -
+                06&lt;/td&gt;&lt;td align="left"&gt;3.36E - 02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;CLIP1&lt;/td&gt;&lt;td align="left"&gt;7.76E - 08&lt;/td&gt;&lt;td
+                align="left"&gt;2.22E - 03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;DIABLO&lt;/td&gt;&lt;td align="left"&gt;3.26E - 07&lt;/td&gt;&lt;td
+                align="left"&gt;9.33E - 03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;FAM86B3P&lt;/td&gt;&lt;td align="left"&gt;6.68E -
+                07&lt;/td&gt;&lt;td align="left"&gt;1.91E - 02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;FAM90A10P&lt;/td&gt;&lt;td align="left"&gt;4.67E -
+                07&lt;/td&gt;&lt;td align="left"&gt;1.34E - 02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;GLYCTK-AS1&lt;/td&gt;&lt;td align="left"&gt;1.01E -
+                06&lt;/td&gt;&lt;td align="left"&gt;2.89E - 02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;ITIH3&lt;/td&gt;&lt;td align="left"&gt;1.18E - 08&lt;/td&gt;&lt;td
+                align="left"&gt;3.39E - 04&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;MALAT1&lt;/td&gt;&lt;td align="left"&gt;8.25E - 07&lt;/td&gt;&lt;td
+                align="left"&gt;2.36E - 02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;NT5DC2&lt;/td&gt;&lt;td align="left"&gt;1.61E - 06&lt;/td&gt;&lt;td
+                align="left"&gt;4.61E - 02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;PBRM1&lt;/td&gt;&lt;td align="left"&gt;3.06E - 07&lt;/td&gt;&lt;td
+                align="left"&gt;8.76E - 03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;RP11-481A20.4&lt;/td&gt;&lt;td align="left"&gt;1.36E -
+                06&lt;/td&gt;&lt;td align="left"&gt;3.90E - 02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;RP11-67K19.3&lt;/td&gt;&lt;td align="left"&gt;2.18E -
+                07&lt;/td&gt;&lt;td align="left"&gt;6.24E - 03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;RP5-966M1.7&lt;/td&gt;&lt;td align="left"&gt;7.71E -
+                07&lt;/td&gt;&lt;td align="left"&gt;2.21E - 02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;RPS7P11&lt;/td&gt;&lt;td align="left"&gt;5.52E - 07&lt;/td&gt;&lt;td
+                align="left"&gt;1.58E - 02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;SETD1B&lt;/td&gt;&lt;td align="left"&gt;8.67E - 08&lt;/td&gt;&lt;td
+                align="left"&gt;2.48E - 03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;SSSCA1-AS1&lt;/td&gt;&lt;td align="left"&gt;2.20E -
+                11&lt;/td&gt;&lt;td align="left"&gt;6.30E - 07&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;TNC&lt;/td&gt;&lt;td align="left"&gt;3.00E - 08&lt;/td&gt;&lt;td
+                align="left"&gt;8.58E - 04&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;TNNC1&lt;/td&gt;&lt;td align="left"&gt;1.17E - 07&lt;/td&gt;&lt;td
+                align="left"&gt;3.35E - 03&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+            <offset>9745</offset>
+            <text>OA Symbol P.ACAT P.Bonferroni Knee AC005152.3 1.71E - 06 4.90E - 02 AL450226.2
+                1.76E - 07 5.04E - 03 COG8 1.30E - 07 3.74E - 03 CYB5B 3.14E - 07 8.98E - 03 HIC1
+                1.11E - 07 3.18E - 03 RP1-221C16.8 9.64E - 07 2.76E - 02 RP11-234K24.3 5.32E - 07
+                1.52E - 02 RP11-419C5.2 1.73E - 06 4.94E - 02 RP11-667K14.3 3.33E - 08 9.53E - 04
+                Hip ALAS1 2.49E - 07 7.13E - 03 ALG1L11P 1.17E - 06 3.36E - 02 CLIP1 7.76E - 08
+                2.22E - 03 DIABLO 3.26E - 07 9.33E - 03 FAM86B3P 6.68E - 07 1.91E - 02 FAM90A10P
+                4.67E - 07 1.34E - 02 GLYCTK-AS1 1.01E - 06 2.89E - 02 ITIH3 1.18E - 08 3.39E - 04
+                MALAT1 8.25E - 07 2.36E - 02 NT5DC2 1.61E - 06 4.61E - 02 PBRM1 3.06E - 07 8.76E -
+                03 RP11-481A20.4 1.36E - 06 3.90E - 02 RP11-67K19.3 2.18E - 07 6.24E - 03
+                RP5-966M1.7 7.71E - 07 2.21E - 02 RPS7P11 5.52E - 07 1.58E - 02 SETD1B 8.67E - 08
+                2.48E - 03 SSSCA1-AS1 2.20E - 11 6.30E - 07 TNC 3.00E - 08 8.58E - 04 TNNC1 1.17E -
+                07 3.35E - 03 </text>
+            <annotation id="1878">
+                <infon key="NCBI Homologene">13018</infon>
+                <infon key="identifier">84342</infon>
+                <infon key="type">Gene</infon>
+                <location offset="9852" length="4" />
+                <text>COG8</text>
+            </annotation>
+            <annotation id="1879">
+                <infon key="NCBI Homologene">23546</infon>
+                <infon key="identifier">80777</infon>
+                <infon key="type">Gene</infon>
+                <location offset="9881" length="5" />
+                <text>CYB5B</text>
+            </annotation>
+            <annotation id="1880">
+                <infon key="NCBI Homologene">4740</infon>
+                <infon key="identifier">3090</infon>
+                <infon key="type">Gene</infon>
+                <location offset="9911" length="4" />
+                <text>HIC1</text>
+            </annotation>
+            <annotation id="1881">
+                <infon key="NCBI Homologene">4564</infon>
+                <infon key="identifier">6101</infon>
+                <infon key="type">Gene</infon>
+                <location offset="9940" length="3" />
+                <text>RP1</text>
+            </annotation>
+            <annotation id="1882">
+                <infon key="NCBI Homologene">5980</infon>
+                <infon key="identifier">26121</infon>
+                <infon key="type">Gene</infon>
+                <location offset="9977" length="4" />
+                <text>RP11</text>
+            </annotation>
+            <annotation id="1883">
+                <infon key="NCBI Homologene">5980</infon>
+                <infon key="identifier">26121</infon>
+                <infon key="type">Gene</infon>
+                <location offset="10015" length="4" />
+                <text>RP11</text>
+            </annotation>
+            <annotation id="1884">
+                <infon key="NCBI Homologene">5980</infon>
+                <infon key="identifier">26121</infon>
+                <infon key="type">Gene</infon>
+                <location offset="10052" length="4" />
+                <text>RP11</text>
+            </annotation>
+            <annotation id="1885">
+                <infon key="identifier">106480789</infon>
+                <infon key="type">Gene</infon>
+                <location offset="10124" length="8" />
+                <text>ALG1L11P</text>
+            </annotation>
+            <annotation id="1886">
+                <infon key="NCBI Homologene">74455</infon>
+                <infon key="identifier">6249</infon>
+                <infon key="type">Gene</infon>
+                <location offset="10157" length="5" />
+                <text>CLIP1</text>
+            </annotation>
+            <annotation id="1887">
+                <infon key="NCBI Homologene">10532</infon>
+                <infon key="identifier">56616</infon>
+                <infon key="type">Gene</infon>
+                <location offset="10187" length="6" />
+                <text>DIABLO</text>
+            </annotation>
+            <annotation id="1888">
+                <infon key="identifier">286042</infon>
+                <infon key="type">Gene</infon>
+                <location offset="10218" length="8" />
+                <text>FAM86B3P</text>
+            </annotation>
+            <annotation id="1889">
+                <infon key="NCBI Homologene">5980</infon>
+                <infon key="identifier">26121</infon>
+                <infon key="type">Gene</infon>
+                <location offset="10442" length="4" />
+                <text>RP11</text>
+            </annotation>
+            <annotation id="1890">
+                <infon key="NCBI Homologene">5980</infon>
+                <infon key="identifier">26121</infon>
+                <infon key="type">Gene</infon>
+                <location offset="10480" length="4" />
+                <text>RP11</text>
+            </annotation>
+            <annotation id="1891">
+                <infon key="NCBI Homologene">55636</infon>
+                <infon key="identifier">3371</infon>
+                <infon key="type">Gene</infon>
+                <location offset="10651" length="3" />
+                <text>TNC</text>
+            </annotation>
+            <annotation id="1892">
+                <infon key="identifier">378938</infon>
+                <infon key="type">Gene</infon>
+                <location offset="10350" length="6" />
+                <text>MALAT1</text>
+            </annotation>
+            <annotation id="1893">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="9745" length="2" />
+                <text>OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="file">Tab1.xml</infon>
+            <infon key="id">Tab1</infon>
+            <infon key="section_type">TABLE</infon>
+            <infon key="type">table_foot</infon>
+            <offset>11046</offset>
+            <text>OA Osteoarthritis, ACAT Aggregate Cauchy association test, P.ACAT P-value from
+                ACAT analysis, P.Bonferroni Bonferroni-corrected P-value from ACAT analysis</text>
+            <annotation id="1894">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="11046" length="17" />
+                <text>OA Osteoarthritis</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>11201</offset>
+            <text>We identified 170 and 731 significantly associated genes (P.Bonferroni &lt; 0.05)
+                across multiple eQTL reference panels in the single-tissue TWAS of KOA and HOA,
+                respectively (Figs. 1 and 2, Table S1-2). Amongst those features, 40 and 74 unique
+                genes were identified in 7 and 11 chromosomes for KOA and HOA, respectively (Fig.
+                3). While most features showed the consistent expression patterns across expression
+                panels, there were 4 and 10 genes with inconsistent direction of effect (Figs. 1 and
+                2). Additionally, we conducted cross-tissue TWAS through the sCCA + ACAT approach to
+                improve the power of single-tissue TWAS and found another 9 and 19 significant
+                features (P.Bonferroni &lt; 0.05) for KOA and HOA, respectively (Table 1, Table
+                S3-4).</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_2</infon>
+            <offset>11954</offset>
+            <text>Functional annotation of TWAS genes</text>
+        </passage>
+        <passage>
+            <infon key="file">13075_2023_3164_Fig4_HTML.jpg</infon>
+            <infon key="id">Fig4</infon>
+            <infon key="section_type">FIG</infon>
+            <infon key="type">fig_caption</infon>
+            <offset>11990</offset>
+            <text>The significant KEGG categories and top five GO terms of TWAS genes. A and B
+                showed the significant KEGG categories for knee OA and hip OA, respectively. C and D
+                showed the top five GO terms for knee OA and hip OA, respectively</text>
+            <annotation id="1895">
+                <infon key="identifier">MESH:D020370</infon>
+                <infon key="type">Disease</infon>
+                <location offset="12110" length="7" />
+                <text>knee OA</text>
+            </annotation>
+            <annotation id="1896">
+                <infon key="identifier">MESH:D020370</infon>
+                <infon key="type">Disease</infon>
+                <location offset="12185" length="7" />
+                <text>knee OA</text>
+            </annotation>
+            <annotation id="1897">
+                <infon key="identifier">MESH:D015207</infon>
+                <infon key="type">Disease</infon>
+                <location offset="12197" length="6" />
+                <text>hip OA</text>
+            </annotation>
+            <annotation id="1898">
+                <infon key="identifier">MESH:D015207</infon>
+                <infon key="type">Disease</infon>
+                <location offset="12122" length="6" />
+                <text>hip OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>12218</offset>
+            <text>KEGG and GO analyses were applied to explore the potential biological function of
+                the TWAS genes, which were identified by either single-tissue or cross-tissue TWAS
+                analysis. There were 4 and 12 KEGG categories with P-value &lt; 0.05 for KOA and
+                HOA, respectively (Fig. 4 A, B), including TGF-beta signaling pathway and MAPK
+                signaling pathway, which played an important role in OA. The TWAS genes were
+                subjected to GO analysis as well (Table S5-6), and Fig. 4 C, D shows the top five GO
+                terms in the biological process, cellular component, and molecular function
+                category. Particularly, we found some OA-related biological processes in the
+                biological process category, such as hyaluronan metabolic process, chondrocyte
+                differentiation, chondrocyte proliferation, and mucopolysaccharide metabolic
+                process.</text>
+            <annotation id="1899">
+                <infon key="NCBI Homologene">540</infon>
+                <infon key="identifier">7040</infon>
+                <infon key="type">Gene</infon>
+                <location offset="12504" length="8" />
+                <text>TGF-beta</text>
+            </annotation>
+            <annotation id="1900">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="12593" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1901">
+                <infon key="identifier">MESH:D006025</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="12982" length="18" />
+                <text>mucopolysaccharide</text>
+            </annotation>
+            <annotation id="1902">
+                <infon key="identifier">MESH:D006820</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="12892" length="10" />
+                <text>hyaluronan</text>
+            </annotation>
+            <annotation id="1903">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="12816" length="2" />
+                <text>OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_2</infon>
+            <offset>13026</offset>
+            <text>Shared genes in mRNA expression profiling</text>
+        </passage>
+        <passage>
+            <infon key="file">13075_2023_3164_Fig5_HTML.jpg</infon>
+            <infon key="id">Fig5</infon>
+            <infon key="section_type">FIG</infon>
+            <infon key="type">fig_caption</infon>
+            <offset>13068</offset>
+            <text>The shared significant genes identified in both TWAS analysis and cartilage mRNA
+                expression profiles. A for knee OA and B for hip OA</text>
+            <annotation id="1904">
+                <infon key="identifier">MESH:D020370</infon>
+                <infon key="type">Disease</infon>
+                <location offset="13176" length="7" />
+                <text>knee OA</text>
+            </annotation>
+            <annotation id="1905">
+                <infon key="identifier">MESH:D015207</infon>
+                <infon key="type">Disease</infon>
+                <location offset="13194" length="6" />
+                <text>hip OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="file">Tab2.xml</infon>
+            <infon key="id">Tab2</infon>
+            <infon key="section_type">TABLE</infon>
+            <infon key="type">table_caption</infon>
+            <offset>13201</offset>
+            <text>The shared genes between significant TWAS genes and DEGs with log2FC &gt; 1</text>
+        </passage>
+        <passage>
+            <infon key="file">Tab2.xml</infon>
+            <infon key="id">Tab2</infon>
+            <infon key="section_type">TABLE</infon>
+            <infon key="type">table</infon>
+            <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides"
+                rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="left"&gt;OA&lt;/th&gt;&lt;th
+                align="left"&gt;Symbol&lt;/th&gt;&lt;th align="left"&gt;log2_FC&lt;/th&gt;&lt;th
+                align="left"&gt;Adjusted_&lt;italic&gt;P&lt;/italic&gt;-value&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td
+                align="left" rowspan="6"&gt;Knee&lt;/td&gt;&lt;td
+                align="left"&gt;CDK2AP1&lt;/td&gt;&lt;td char="."
+                align="char"&gt;1.15&lt;/td&gt;&lt;td align="left"&gt;1.49E -
+                03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;EVI2A&lt;/td&gt;&lt;td
+                char="." align="char"&gt;1.50&lt;/td&gt;&lt;td align="left"&gt;1.93E -
+                05&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;GDF5&lt;/td&gt;&lt;td
+                char="." align="char"&gt;1.14&lt;/td&gt;&lt;td align="left"&gt;2.81E -
+                02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;LTBP1&lt;/td&gt;&lt;td
+                char="." align="char"&gt;1.37&lt;/td&gt;&lt;td align="left"&gt;2.21E -
+                03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;SPAG4&lt;/td&gt;&lt;td
+                char="." align="char"&gt; - 1.02&lt;/td&gt;&lt;td align="left"&gt;2.68E -
+                04&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;WWP2&lt;/td&gt;&lt;td
+                char="." align="char"&gt; - 1.36&lt;/td&gt;&lt;td align="left"&gt;7.46E -
+                05&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+            <offset>13277</offset>
+            <text>OA Symbol log2_FC Adjusted_P-value Knee CDK2AP1 1.15 1.49E - 03 EVI2A 1.50 1.93E -
+                05 GDF5 1.14 2.81E - 02 LTBP1 1.37 2.21E - 03 SPAG4 - 1.02 2.68E - 04 WWP2 - 1.36
+                7.46E - 05 </text>
+            <annotation id="1906">
+                <infon key="NCBI Homologene">3411</infon>
+                <infon key="identifier">8099</infon>
+                <infon key="type">Gene</infon>
+                <location offset="13319" length="7" />
+                <text>CDK2AP1</text>
+            </annotation>
+            <annotation id="1907">
+                <infon key="NCBI Homologene">49234</infon>
+                <infon key="identifier">2123</infon>
+                <infon key="type">Gene</infon>
+                <location offset="13345" length="5" />
+                <text>EVI2A</text>
+            </annotation>
+            <annotation id="1908">
+                <infon key="NCBI Homologene">468</infon>
+                <infon key="identifier">8200</infon>
+                <infon key="type">Gene</infon>
+                <location offset="13369" length="4" />
+                <text>GDF5</text>
+            </annotation>
+            <annotation id="1909">
+                <infon key="NCBI Homologene">522</infon>
+                <infon key="identifier">4052</infon>
+                <infon key="type">Gene</infon>
+                <location offset="13392" length="5" />
+                <text>LTBP1</text>
+            </annotation>
+            <annotation id="1910">
+                <infon key="NCBI Homologene">2343</infon>
+                <infon key="identifier">6676</infon>
+                <infon key="type">Gene</infon>
+                <location offset="13416" length="5" />
+                <text>SPAG4</text>
+            </annotation>
+            <annotation id="1911">
+                <infon key="NCBI Homologene">48490</infon>
+                <infon key="identifier">11060</infon>
+                <infon key="type">Gene</infon>
+                <location offset="13443" length="4" />
+                <text>WWP2</text>
+            </annotation>
+            <annotation id="1912">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="13277" length="2" />
+                <text>OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="file">Tab2.xml</infon>
+            <infon key="id">Tab2</infon>
+            <infon key="section_type">TABLE</infon>
+            <infon key="type">table_foot</infon>
+            <offset>13518</offset>
+            <text>TWAS Transcriptome-wide association study, DEGs Differentially expressed genes, OA
+                Osteoarthritis, FC Fold change</text>
+            <annotation id="1913">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="13598" length="17" />
+                <text>OA Osteoarthritis</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>13632</offset>
+            <text>To validate the significant TWAS features, we utilized the cartilage mRNA
+                expression profiling from previous studies. In the case of KOA and HOA, a total of
+                14 and 4 TWAS genes, respectively, were observed among the DEGs in the mRNA
+                expression analysis (adjusted P-value &lt; 0.05) (Fig. 5). Notably, among these
+                shared genes, six genes for KOA exhibited a log2FC &gt; 1, as shown in Table 2.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_2</infon>
+            <offset>14026</offset>
+            <text>CGSEA of the TWAS genes</text>
+        </passage>
+        <passage>
+            <infon key="file">Tab3.xml</infon>
+            <infon key="id">Tab3</infon>
+            <infon key="section_type">TABLE</infon>
+            <infon key="type">table_caption</infon>
+            <offset>14050</offset>
+            <text>The top five significantly OA-associated chemicals identified through CGSEA
+                analysis</text>
+            <annotation id="1914">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="14077" length="2" />
+                <text>OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="file">Tab3.xml</infon>
+            <infon key="id">Tab3</infon>
+            <infon key="section_type">TABLE</infon>
+            <infon key="type">table</infon>
+            <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides"
+                rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="left"&gt;OA&lt;/th&gt;&lt;th
+                align="left"&gt;Chemical Name&lt;/th&gt;&lt;th align="left"&gt;MeSH
+                ID&lt;/th&gt;&lt;th align="left"&gt;NES&lt;/th&gt;&lt;th
+                align="left"&gt;&lt;italic&gt;P&lt;/italic&gt;-value&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td
+                align="left" rowspan="5"&gt;Knee&lt;/td&gt;&lt;td
+                align="left"&gt;Acetaminophen&lt;/td&gt;&lt;td
+                align="left"&gt;D000082&lt;/td&gt;&lt;td char="."
+                align="char"&gt;15.90&lt;/td&gt;&lt;td align="left"&gt;9.99E -
+                04&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;Tetrachlorodibenzodioxin&lt;/td&gt;&lt;td
+                align="left"&gt;D013749&lt;/td&gt;&lt;td char="."
+                align="char"&gt;37.22&lt;/td&gt;&lt;td align="left"&gt;9.99E -
+                04&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;Aflatoxin
+                B1&lt;/td&gt;&lt;td align="left"&gt;D016604&lt;/td&gt;&lt;td char="."
+                align="char"&gt;65.49&lt;/td&gt;&lt;td align="left"&gt;9.99E -
+                04&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;Bisphenol
+                A&lt;/td&gt;&lt;td align="left"&gt;C006780&lt;/td&gt;&lt;td char="."
+                align="char"&gt;6.69&lt;/td&gt;&lt;td align="left"&gt;2.00E -
+                03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
+                align="left"&gt;Cyclosporine&lt;/td&gt;&lt;td
+                align="left"&gt;D016572&lt;/td&gt;&lt;td char="."
+                align="char"&gt;13.42&lt;/td&gt;&lt;td align="left"&gt;3.00E -
+                03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"
+                rowspan="5"&gt;Hip&lt;/td&gt;&lt;td align="left"&gt;PCB 180&lt;/td&gt;&lt;td
+                align="left"&gt;C410127&lt;/td&gt;&lt;td char="."
+                align="char"&gt;118.04&lt;/td&gt;&lt;td align="left"&gt;9.99E -
+                04&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;Mercuric
+                Chloride&lt;/td&gt;&lt;td align="left"&gt;D008627&lt;/td&gt;&lt;td char="."
+                align="char"&gt;76.38&lt;/td&gt;&lt;td align="left"&gt;9.99E -
+                04&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;Atrazine&lt;/td&gt;&lt;td
+                align="left"&gt;D001280&lt;/td&gt;&lt;td char="."
+                align="char"&gt;64.67&lt;/td&gt;&lt;td align="left"&gt;9.99E -
+                04&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;Quercetin&lt;/td&gt;&lt;td
+                align="left"&gt;D011794&lt;/td&gt;&lt;td char="."
+                align="char"&gt;61.42&lt;/td&gt;&lt;td align="left"&gt;9.99E -
+                04&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;Genistein&lt;/td&gt;&lt;td
+                align="left"&gt;D019833&lt;/td&gt;&lt;td char="."
+                align="char"&gt;56.48&lt;/td&gt;&lt;td align="left"&gt;9.99E -
+                04&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+            <offset>14135</offset>
+            <text>OA Chemical Name MeSH ID NES P-value Knee Acetaminophen D000082 15.90 9.99E - 04
+                Tetrachlorodibenzodioxin D013749 37.22 9.99E - 04 Aflatoxin B1 D016604 65.49 9.99E -
+                04 Bisphenol A C006780 6.69 2.00E - 03 Cyclosporine D016572 13.42 3.00E - 03 Hip PCB
+                180 C410127 118.04 9.99E - 04 Mercuric Chloride D008627 76.38 9.99E - 04 Atrazine
+                D001280 64.67 9.99E - 04 Quercetin D011794 61.42 9.99E - 04 Genistein D019833 56.48
+                9.99E - 04 </text>
+            <annotation id="1915">
+                <infon key="identifier">-</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="14549" length="17" />
+                <text>Genistein D019833</text>
+            </annotation>
+            <annotation id="1916">
+                <infon key="identifier">-</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="14512" length="17" />
+                <text>Quercetin D011794</text>
+            </annotation>
+            <annotation id="1917">
+                <infon key="identifier">MESH:D000082</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="14180" length="13" />
+                <text>Acetaminophen</text>
+            </annotation>
+            <annotation id="1918">
+                <infon key="identifier">-</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="14431" length="25" />
+                <text>Mercuric Chloride D008627</text>
+            </annotation>
+            <annotation id="1919">
+                <infon key="identifier">-</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="14286" length="7" />
+                <text>D016604</text>
+            </annotation>
+            <annotation id="1920">
+                <infon key="identifier">-</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="14221" length="32" />
+                <text>Tetrachlorodibenzodioxin D013749</text>
+            </annotation>
+            <annotation id="1921">
+                <infon key="identifier">-</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="14313" length="19" />
+                <text>Bisphenol A C006780</text>
+            </annotation>
+            <annotation id="1922">
+                <infon key="identifier">-</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="14391" length="11" />
+                <text>Hip PCB 180</text>
+            </annotation>
+            <annotation id="1923">
+                <infon key="identifier">-</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="14403" length="7" />
+                <text>C410127</text>
+            </annotation>
+            <annotation id="1924">
+                <infon key="identifier">-</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="14476" length="16" />
+                <text>Atrazine D001280</text>
+            </annotation>
+            <annotation id="1925">
+                <infon key="identifier">MESH:D016604</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="14273" length="12" />
+                <text>Aflatoxin B1</text>
+            </annotation>
+            <annotation id="1926">
+                <infon key="identifier">-</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="14351" length="20" />
+                <text>Cyclosporine D016572</text>
+            </annotation>
+            <annotation id="1927">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="14135" length="2" />
+                <text>OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="file">Tab3.xml</infon>
+            <infon key="id">Tab3</infon>
+            <infon key="section_type">TABLE</infon>
+            <infon key="type">table_foot</infon>
+            <offset>14648</offset>
+            <text>OA Osteoarthritis, CGSEA Chemical-related gene set enrichment analysis, NES
+                Normalized enrichment score</text>
+            <annotation id="1928">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="14648" length="17" />
+                <text>OA Osteoarthritis</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>14752</offset>
+            <text>We conducted CGSEA analysis to identify the OA-associated environmental factors
+                using the significant TWAS genes with the Z-scores in the single-tissue TWAS (Table
+                3). For KOA, we identified the 5 enriched chemicals. Meanwhile, there were 45
+                significantly enriched chemicals for HOA (Table S7), such as quercetin, bisphenol A,
+                cadmium chloride, and mercuric chloride.</text>
+            <annotation id="1929">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="14796" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1930">
+                <infon key="identifier">MESH:C006780</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="15066" length="11" />
+                <text>bisphenol A</text>
+            </annotation>
+            <annotation id="1931">
+                <infon key="identifier">MESH:D008627</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="15101" length="17" />
+                <text>mercuric chloride</text>
+            </annotation>
+            <annotation id="1932">
+                <infon key="identifier">MESH:D019256</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="15079" length="16" />
+                <text>cadmium chloride</text>
+            </annotation>
+            <annotation id="1933">
+                <infon key="identifier">MESH:D011794</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="15055" length="9" />
+                <text>quercetin</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">title_1</infon>
+            <offset>15121</offset>
+            <text>Discussion</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>15132</offset>
+            <text>The present study identified 49 and 93 significantly associated genes of KOA and
+                HOA, respectively, through single-tissue and cross-tissue TWAS, and the biological
+                function and pathways of those signals were further investigated using KEGG and GO
+                databases. We used the gene expression profiling of cartilage to validate the TWAS
+                results.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>15471</offset>
+            <text>More than 100 independent risk variants of OA have been reported in previous GWAS
+                studies. While several the significant TWAS genes overlapped with the effector genes
+                or reasonable candidate genes in the GWAS analysis, such as GDF5, USP8, TNC, FGFR3,
+                LTBP1, and UQCC1, we unraveled several novel potential risk genes by TWAS analysis,
+                which also showed significantly differential expression in the cartilage mRNA
+                expression profiling, such as EVI2A, FMNL1, and AARS. Actually, studies demonstrated
+                that some of the TWAS genes were involved in the OA-related biological function,
+                such as GDF5, WWP2, and MALAT1, while several TWAS genes have not been fully
+                investigated in OA. For example, the MLXIP gene, also known as MAX-interacting
+                protein 1 or MIP1, encodes a protein that interacts with the MAX transcription
+                factor, which plays a critical role in the regulation of gene expression. Studies
+                have shown that the MLXIP gene is involved in various biological processes,
+                including glucose metabolism, lipid metabolism, and cellular senescence, which have
+                also been implicated in the pathogenesis of osteoarthritis.</text>
+            <annotation id="1934">
+                <infon key="NCBI Homologene">468</infon>
+                <infon key="identifier">8200</infon>
+                <infon key="type">Gene</infon>
+                <location offset="15698" length="4" />
+                <text>GDF5</text>
+            </annotation>
+            <annotation id="1935">
+                <infon key="NCBI Homologene">3782</infon>
+                <infon key="identifier">9101</infon>
+                <infon key="type">Gene</infon>
+                <location offset="15704" length="4" />
+                <text>USP8</text>
+            </annotation>
+            <annotation id="1936">
+                <infon key="NCBI Homologene">55636</infon>
+                <infon key="identifier">3371</infon>
+                <infon key="type">Gene</infon>
+                <location offset="15710" length="3" />
+                <text>TNC</text>
+            </annotation>
+            <annotation id="1937">
+                <infon key="NCBI Homologene">55437</infon>
+                <infon key="identifier">2261</infon>
+                <infon key="type">Gene</infon>
+                <location offset="15715" length="5" />
+                <text>FGFR3</text>
+            </annotation>
+            <annotation id="1938">
+                <infon key="NCBI Homologene">522</infon>
+                <infon key="identifier">4052</infon>
+                <infon key="type">Gene</infon>
+                <location offset="15722" length="5" />
+                <text>LTBP1</text>
+            </annotation>
+            <annotation id="1939">
+                <infon key="NCBI Homologene">14709</infon>
+                <infon key="identifier">55245</infon>
+                <infon key="type">Gene</infon>
+                <location offset="15733" length="5" />
+                <text>UQCC1</text>
+            </annotation>
+            <annotation id="1940">
+                <infon key="NCBI Homologene">49234</infon>
+                <infon key="identifier">2123</infon>
+                <infon key="type">Gene</infon>
+                <location offset="15914" length="5" />
+                <text>EVI2A</text>
+            </annotation>
+            <annotation id="1941">
+                <infon key="NCBI Homologene">136798</infon>
+                <infon key="identifier">752</infon>
+                <infon key="type">Gene</infon>
+                <location offset="15921" length="5" />
+                <text>FMNL1</text>
+            </annotation>
+            <annotation id="1942">
+                <infon key="NCBI Homologene">1213</infon>
+                <infon key="identifier">16</infon>
+                <infon key="type">Gene</infon>
+                <location offset="15932" length="4" />
+                <text>AARS</text>
+            </annotation>
+            <annotation id="1943">
+                <infon key="NCBI Homologene">468</infon>
+                <infon key="identifier">8200</infon>
+                <infon key="type">Gene</infon>
+                <location offset="16058" length="4" />
+                <text>GDF5</text>
+            </annotation>
+            <annotation id="1944">
+                <infon key="NCBI Homologene">48490</infon>
+                <infon key="identifier">11060</infon>
+                <infon key="type">Gene</infon>
+                <location offset="16064" length="4" />
+                <text>WWP2</text>
+            </annotation>
+            <annotation id="1945">
+                <infon key="identifier">378938</infon>
+                <infon key="type">Gene</infon>
+                <location offset="16074" length="6" />
+                <text>MALAT1</text>
+            </annotation>
+            <annotation id="1946">
+                <infon key="NCBI Homologene">22851</infon>
+                <infon key="identifier">22877</infon>
+                <infon key="type">Gene</infon>
+                <location offset="16164" length="5" />
+                <text>MLXIP</text>
+            </annotation>
+            <annotation id="1947">
+                <infon key="NCBI Homologene">4351</infon>
+                <infon key="identifier">4601</infon>
+                <infon key="type">Gene</infon>
+                <location offset="16190" length="25" />
+                <text>MAX-interacting protein 1</text>
+            </annotation>
+            <annotation id="1948">
+                <infon key="NCBI Homologene">5358</infon>
+                <infon key="identifier">3842</infon>
+                <infon key="type">Gene</infon>
+                <location offset="16219" length="4" />
+                <text>MIP1</text>
+            </annotation>
+            <annotation id="1949">
+                <infon key="NCBI Homologene">22851</infon>
+                <infon key="identifier">22877</infon>
+                <infon key="type">Gene</infon>
+                <location offset="16387" length="5" />
+                <text>MLXIP</text>
+            </annotation>
+            <annotation id="1950">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="16571" length="14" />
+                <text>osteoarthritis</text>
+            </annotation>
+            <annotation id="1951">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="15514" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1952">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="16143" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1953">
+                <infon key="identifier">MESH:D008055</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="16473" length="5" />
+                <text>lipid</text>
+            </annotation>
+            <annotation id="1954">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="16018" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1955">
+                <infon key="identifier">MESH:D005947</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="16453" length="7" />
+                <text>glucose</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>16587</offset>
+            <text>Additionally, by integrating the TWAS results with the chemical-related gene sets,
+                we found a total of 45 unique OA-associated chemical substances. Among the
+                identified chemicals, quercetin was extensively studied in the field of OA and
+                alleviated OA through its multiple biological functions, including suppression of
+                the inflammation and cartilage degeneration, pain relief, and attenuation of
+                oxidative stress, ER stress, and associated apoptosis. Clinical studies also support
+                the protective effect of quercetin supplement, which could significantly improve the
+                joint function and collagen II synthesis/degradation balance. There were some
+                hazardous chemicals among the identified OA-associated ones. For instance, bisphenol
+                A was detected not only in the serum of the OA patients, but also in the synovial
+                fluid of knee replacement patients, and exhibited a concentration-dependent
+                antagonistic effect on the protective actions of E2 on chondrocyte, which decreased
+                the NF-kappaB activation and MMP1 expression. In addition, the exposure of cadmium
+                chloride could reduce the chondrocyte cell viability, increase the expression of the
+                catabolic markers (MMP13, MMP9, MMP3, MMP1) and inflammatory markers (IL-1beta and
+                IL-6), and activate the expression of the cartilage extracellular matrix genes
+                (aggrecan and collagen II), and the cadmium contributed the cartilage loss by
+                activating the interleukins through the reactive oxygen species. Clinical findings
+                supported the harmful effect of cadmium, and cadmium exposure through smoking was
+                positively correlated with the severity of OA.</text>
+            <annotation id="1956">
+                <infon key="NCBI Homologene">2971</infon>
+                <infon key="identifier">4790</infon>
+                <infon key="type">Gene</infon>
+                <location offset="17562" length="9" />
+                <text>NF-kappaB</text>
+            </annotation>
+            <annotation id="1957">
+                <infon key="NCBI Homologene">20544</infon>
+                <infon key="identifier">4312</infon>
+                <infon key="type">Gene</infon>
+                <location offset="17587" length="4" />
+                <text>MMP1</text>
+            </annotation>
+            <annotation id="1958">
+                <infon key="NCBI Homologene">20548</infon>
+                <infon key="identifier">4322</infon>
+                <infon key="type">Gene</infon>
+                <location offset="17745" length="5" />
+                <text>MMP13</text>
+            </annotation>
+            <annotation id="1959">
+                <infon key="NCBI Homologene">3659</infon>
+                <infon key="identifier">4318</infon>
+                <infon key="type">Gene</infon>
+                <location offset="17752" length="4" />
+                <text>MMP9</text>
+            </annotation>
+            <annotation id="1960">
+                <infon key="NCBI Homologene">20545</infon>
+                <infon key="identifier">4314</infon>
+                <infon key="type">Gene</infon>
+                <location offset="17758" length="4" />
+                <text>MMP3</text>
+            </annotation>
+            <annotation id="1961">
+                <infon key="NCBI Homologene">20544</infon>
+                <infon key="identifier">4312</infon>
+                <infon key="type">Gene</infon>
+                <location offset="17764" length="4" />
+                <text>MMP1</text>
+            </annotation>
+            <annotation id="1962">
+                <infon key="NCBI Homologene">481</infon>
+                <infon key="identifier">3553</infon>
+                <infon key="type">Gene</infon>
+                <location offset="17796" length="8" />
+                <text>IL-1beta</text>
+            </annotation>
+            <annotation id="1963">
+                <infon key="NCBI Homologene">502</infon>
+                <infon key="identifier">3569</infon>
+                <infon key="type">Gene</infon>
+                <location offset="17809" length="4" />
+                <text>IL-6</text>
+            </annotation>
+            <annotation id="1964">
+                <infon key="NCBI Homologene">136177</infon>
+                <infon key="identifier">176</infon>
+                <infon key="type">Gene</infon>
+                <location offset="17889" length="8" />
+                <text>aggrecan</text>
+            </annotation>
+            <annotation id="1965">
+                <infon key="identifier">9606</infon>
+                <infon key="type">Species</infon>
+                <location offset="17363" length="8" />
+                <text>patients</text>
+            </annotation>
+            <annotation id="1966">
+                <infon key="identifier">9606</infon>
+                <infon key="type">Species</infon>
+                <location offset="17424" length="8" />
+                <text>patients</text>
+            </annotation>
+            <annotation id="1967">
+                <infon key="identifier">MESH:D019256</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="17633" length="16" />
+                <text>cadmium chloride</text>
+            </annotation>
+            <annotation id="1968">
+                <infon key="identifier">MESH:C006780</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="17306" length="11" />
+                <text>bisphenol A</text>
+            </annotation>
+            <annotation id="1969">
+                <infon key="identifier">MESH:D002357</infon>
+                <infon key="type">Disease</infon>
+                <location offset="17948" length="14" />
+                <text>cartilage loss</text>
+            </annotation>
+            <annotation id="1970">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="16835" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1971">
+                <infon key="identifier">MESH:D007249</infon>
+                <infon key="type">Disease</infon>
+                <location offset="17774" length="12" />
+                <text>inflammatory</text>
+            </annotation>
+            <annotation id="1972">
+                <infon key="identifier">MESH:D017382</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="18006" length="23" />
+                <text>reactive oxygen species</text>
+            </annotation>
+            <annotation id="1973">
+                <infon key="identifier">MESH:D002104</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="18094" length="7" />
+                <text>cadmium</text>
+            </annotation>
+            <annotation id="1974">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="17272" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1975">
+                <infon key="identifier">MESH:D002357</infon>
+                <infon key="type">Disease</infon>
+                <location offset="16927" length="22" />
+                <text>cartilage degeneration</text>
+            </annotation>
+            <annotation id="1976">
+                <infon key="identifier">MESH:D007249</infon>
+                <infon key="type">Disease</infon>
+                <location offset="16910" length="12" />
+                <text>inflammation</text>
+            </annotation>
+            <annotation id="1977">
+                <infon key="identifier">MESH:D011794</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="17093" length="9" />
+                <text>quercetin</text>
+            </annotation>
+            <annotation id="1978">
+                <infon key="identifier">MESH:D004958</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="17523" length="2" />
+                <text>E2</text>
+            </annotation>
+            <annotation id="1979">
+                <infon key="identifier">MESH:D011794</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="16767" length="9" />
+                <text>quercetin</text>
+            </annotation>
+            <annotation id="1980">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="16817" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1981">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="18174" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1982">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="17360" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1983">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="16700" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1984">
+                <infon key="identifier">MESH:D002104</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="18081" length="7" />
+                <text>cadmium</text>
+            </annotation>
+            <annotation id="1985">
+                <infon key="identifier">MESH:D002104</infon>
+                <infon key="type">Chemical</infon>
+                <location offset="17924" length="7" />
+                <text>cadmium</text>
+            </annotation>
+            <annotation id="1986">
+                <infon key="identifier">MESH:D010146</infon>
+                <infon key="type">Disease</infon>
+                <location offset="16951" length="4" />
+                <text>pain</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>18178</offset>
+            <text>There were several limitations of the present study. First, the lack of causally
+                OA-related tissues could reduce the power of the TWAS analysis, while we utilized
+                both single-tissue and cross-tissue TWAS approaches to address this issue. Second,
+                we employed the bioinformatic analysis to explore the OA-related candidate genes and
+                chemicals, and the biological function of TWAS genes and related chemicals needed to
+                be further investigated through biological experiments and clinical observation.
+                Third, the summary-level GWAS data were exclusively derived from the European
+                population, and caution should be exercised when extrapolating the results to other
+                populations.</text>
+            <annotation id="1987">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="18259" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1988">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="18478" length="2" />
+                <text>OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">CONCL</infon>
+            <infon key="type">title_1</infon>
+            <offset>18850</offset>
+            <text>Conclusions</text>
+        </passage>
+        <passage>
+            <infon key="section_type">CONCL</infon>
+            <infon key="type">paragraph</infon>
+            <offset>18862</offset>
+            <text>In summary, we identified multiple OA-associated genes and chemicals by performing
+                the TWAS and CGSEA analysis and yielded novel insights into the relationship between
+                genes, chemicals, and their impact on OA.</text>
+            <annotation id="1989">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="19068" length="2" />
+                <text>OA</text>
+            </annotation>
+            <annotation id="1990">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="18897" length="2" />
+                <text>OA</text>
+            </annotation>
+        </passage>
+
+        <!--<passage>
+            <infon key="section_type">CONCL</infon>
+            <infon key="type">title_2</infon>
+            <offset>19072</offset>
+            <text>Supplementary Information</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">title</infon>
+            <offset>19098</offset>
+            <text>Abbreviations</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19112</offset>
+            <text>OA</text>
+            <annotation id="1991">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="19112" length="2" />
+                <text>OA</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19115</offset>
+            <text>Osteoarthritis</text>
+            <annotation id="1992">
+                <infon key="identifier">MESH:D010003</infon>
+                <infon key="type">Disease</infon>
+                <location offset="19115" length="14" />
+                <text>Osteoarthritis</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19130</offset>
+            <text>eQTL</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19135</offset>
+            <text>Expression quantitative trait loci</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19170</offset>
+            <text>GWAS</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19175</offset>
+            <text>Genome-wide association study</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19205</offset>
+            <text>TWAS</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19210</offset>
+            <text>Transcriptome-wide association studies</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19249</offset>
+            <text>sCCA</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19254</offset>
+            <text>Sparse canonical correlation analysis</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19292</offset>
+            <text>ACAT</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19297</offset>
+            <text>Aggregate Cauchy association test</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19331</offset>
+            <text>GTEx</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19336</offset>
+            <text>Genotype-Tissue Expression</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19363</offset>
+            <text>GO</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19366</offset>
+            <text>Gene Ontology</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19380</offset>
+            <text>KEGG</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19385</offset>
+            <text>Kyoto Encyclopedia of Genes and Genomes</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19425</offset>
+            <text>CGSEA</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19431</offset>
+            <text>Chemical-related gene set enrichment analysis</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19477</offset>
+            <text>CTD</text>
+            <annotation id="1993">
+                <infon key="type">Disease</infon>
+                <location offset="19477" length="3" />
+                <text>CTD</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19481</offset>
+            <text>Comparative Toxicogenomics Database</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19517</offset>
+            <text>DEGs</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19522</offset>
+            <text>Differentially expressed genes</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">footnote</infon>
+            <offset>19553</offset>
+            <text>Publisher's Note</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABBR</infon>
+            <infon key="type">footnote</infon>
+            <offset>19572</offset>
+            <text>Springer Nature remains neutral with regard to jurisdictional claims in published
+                maps and institutional affiliations.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">AUTH_CONT</infon>
+            <infon key="type">title</infon>
+            <offset>19691</offset>
+            <text>Authors' contributions</text>
+        </passage>
+        <passage>
+            <infon key="section_type">AUTH_CONT</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19716</offset>
+            <text>LM and ZHL designed the study, ZZM and RQC contributed to the data collection and
+                preprocessing, and LM and ZHL performed the data analysis and wrote the manuscript.
+                XLR and ZYL provided language help and writing assistance. All authors reviewed,
+                revised, and approved the final manuscript.</text>
+            <annotation id="1994">
+                <infon key="type">Disease</infon>
+                <location offset="19890" length="3" />
+                <text>ZYL</text>
+            </annotation>
+            <annotation id="1995">
+                <infon key="type">Disease</infon>
+                <location offset="19882" length="3" />
+                <text>XLR</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="section_type">ACK_FUND</infon>
+            <infon key="type">title</infon>
+            <offset>20007</offset>
+            <text>Funding</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ACK_FUND</infon>
+            <infon key="type">paragraph</infon>
+            <offset>20015</offset>
+            <text>This work was financially supported by the National Natural Science Foundation of
+                China (82272664, 81902745, 82103228), Hunan Provincial Research and Development
+                Program in Key Areas (2019WK2071, 2020DK2003), Hunan Provincial Natural Science
+                Foundation of China (2022JJ30843), and the Fundamental Research Funds for the
+                Central Universities of Central South University (2021zzts0397). LM is funded by the
+                China Scholarship Council Grant (202206370184) from the Ministry of Education of
+                P.R. China.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title</infon>
+            <offset>20513</offset>
+            <text>Availability of data and materials</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>20548</offset>
+            <text>The software and datasets used and/or analyzed during the current study are
+                available from FUSION (http://gusevlab.org/projects/fusion/); the Comparative
+                Toxicogenomics Database (http://ctdbase.org/); CGSEA
+                (https://github.com/ChengSQXJTU/CGSEA); Gene ATLAS
+                (http://geneatlas.roslin.ed.ac.uk/), key: clinical_c_M17 and clinical_c_M16; the
+                Alkes Group (https://alkesgroup.broadinstitute.org/LDSCORE/GRCh38/); LD Score
+                regression software packages (https://github.com/bulik/ldsc); Gene Expression
+                Omnibus database (https://www.ncbi.nlm.nih.gov/geo/).</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title</infon>
+            <offset>21097</offset>
+            <text>Declarations</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title</infon>
+            <offset>21110</offset>
+            <text>Ethics approval and consent to participate</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>21153</offset>
+            <text>Ethical approval was not applicable to this study as publicly available data were
+                used for the analysis.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title</infon>
+            <offset>21258</offset>
+            <text>Consent for publication</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>21282</offset>
+            <text>Not applicable.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">COMP_INT</infon>
+            <infon key="type">title</infon>
+            <offset>21298</offset>
+            <text>Competing interests</text>
+        </passage>
+        <passage>
+            <infon key="section_type">COMP_INT</infon>
+            <infon key="type">paragraph</infon>
+            <offset>21318</offset>
+            <text>The authors declare no competing interests.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">REF</infon>
+            <infon key="type">title</infon>
+            <offset>21362</offset>
+            <text>References</text>
+        </passage>
+        <passage>
+            <infon key="fpage">819</infon>
+            <infon key="issue">6</infon>
+            <infon key="lpage">828</infon>
+            <infon key="name_0">surname:Safiri;given-names:S</infon>
+            <infon key="name_1">surname:Kolahi;given-names:AA</infon>
+            <infon key="name_2">surname:Smith;given-names:E</infon>
+            <infon key="name_3">surname:Hill;given-names:C</infon>
+            <infon key="name_4">surname:Bettampadi;given-names:D</infon>
+            <infon key="name_5">surname:Mansournia;given-names:MA</infon>
+            <infon key="pub-id_doi">10.1136/annrheumdis-2019-216515</infon>
+            <infon key="pub-id_pmid">32398285</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Ann Rheum Dis</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">79</infon>
+            <infon key="year">2020</infon>
+            <offset>21373</offset>
+            <text>Global, regional and national burden of osteoarthritis 1990-2017: a systematic
+                analysis of the Global Burden of Disease Study 2017</text>
+        </passage>
+        <passage>
+            <infon key="section_type">REF</infon>
+            <infon key="type">ref</infon>
+            <offset>21506</offset>
+            <text>Allen KD, Thoma LM, Golightly YM. Epidemiology of osteoarthritis. Osteoarthritis
+                Cartilage. 2022;30(2):184-95.</text>
+        </passage>
+        <passage>
+            <infon key="fpage">674</infon>
+            <infon key="issue">11</infon>
+            <infon key="lpage">681</infon>
+            <infon key="name_0">surname:Berenbaum;given-names:F</infon>
+            <infon key="name_1">surname:Wallace;given-names:IJ</infon>
+            <infon key="name_2">surname:Lieberman;given-names:DE</infon>
+            <infon key="name_3">surname:Felson;given-names:DT</infon>
+            <infon key="pub-id_doi">10.1038/s41584-018-0073-x</infon>
+            <infon key="pub-id_pmid">30209413</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nat Rev Rheumatol</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">14</infon>
+            <infon key="year">2018</infon>
+            <offset>21619</offset>
+            <text>Modern-day environmental factors in the pathogenesis of osteoarthritis</text>
+        </passage>
+        <passage>
+            <infon key="fpage">2410</infon>
+            <infon key="issue">11</infon>
+            <infon key="lpage">2416</infon>
+            <infon key="name_0">surname:MacGregor;given-names:AJ</infon>
+            <infon key="name_1">surname:Antoniades;given-names:L</infon>
+            <infon key="name_2">surname:Matson;given-names:M</infon>
+            <infon key="name_3">surname:Andrew;given-names:T</infon>
+            <infon key="name_4">surname:Spector;given-names:TD</infon>
+            <infon key="pub-id_doi">10.1002/1529-0131(200011)43:11&lt;2410::AID-ANR6&gt;3.0.CO;2-E</infon>
+            <infon key="pub-id_pmid">11083262</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Arthritis Rheum</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">43</infon>
+            <infon key="year">2000</infon>
+            <offset>21690</offset>
+            <text>The genetic contribution to radiographic hip osteoarthritis in women: results of a
+                classic twin study</text>
+            <annotation id="1996">
+                <infon key="identifier">9606</infon>
+                <infon key="type">Species</infon>
+                <location offset="21753" length="5" />
+                <text>women</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="fpage">1024</infon>
+            <infon key="issue">4</infon>
+            <infon key="lpage">1029</infon>
+            <infon key="name_0">surname:Manek;given-names:NJ</infon>
+            <infon key="name_1">surname:Hart;given-names:D</infon>
+            <infon key="name_2">surname:Spector;given-names:TD</infon>
+            <infon key="name_3">surname:MacGregor;given-names:AJ</infon>
+            <infon key="pub-id_doi">10.1002/art.10884</infon>
+            <infon key="pub-id_pmid">12687544</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Arthritis Rheum</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">48</infon>
+            <infon key="year">2003</infon>
+            <offset>21792</offset>
+            <text>The association of body mass index and osteoarthritis of the knee joint: an
+                examination of genetic and environmental influences</text>
+        </passage>
+        <passage>
+            <infon key="fpage">4784</infon>
+            <infon key="issue">18</infon>
+            <infon key="lpage">818.e17</infon>
+            <infon key="name_0">surname:Boer;given-names:CG</infon>
+            <infon key="name_1">surname:Hatzikotoulas;given-names:K</infon>
+            <infon key="name_2">surname:Southam;given-names:L</infon>
+            <infon key="name_3">surname:Stefansdottir;given-names:L</infon>
+            <infon key="name_4">surname:Zhang;given-names:Y</infon>
+            <infon key="name_5">surname:Coutinho de Almeida;given-names:R</infon>
+            <infon key="pub-id_doi">10.1016/j.cell.2021.07.038</infon>
+            <infon key="pub-id_pmid">34450027</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Cell</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">184</infon>
+            <infon key="year">2021</infon>
+            <offset>21920</offset>
+            <text>Deciphering osteoarthritis genetics across 826,690 individuals from 9 populations</text>
+        </passage>
+        <passage>
+            <infon key="fpage">1681</infon>
+            <infon key="issue">12</infon>
+            <infon key="lpage">1687</infon>
+            <infon key="name_0">surname:Styrkarsdottir;given-names:U</infon>
+            <infon key="name_1">surname:Lund;given-names:SH</infon>
+            <infon key="name_2">surname:Thorleifsson;given-names:G</infon>
+            <infon key="name_3">surname:Zink;given-names:F</infon>
+            <infon key="name_4">surname:Stefansson;given-names:OA</infon>
+            <infon key="name_5">surname:Sigurdsson;given-names:JK</infon>
+            <infon key="pub-id_doi">10.1038/s41588-018-0247-0</infon>
+            <infon key="pub-id_pmid">30374069</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nat Genet</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">50</infon>
+            <infon key="year">2018</infon>
+            <offset>22002</offset>
+            <text>Meta-analysis of Icelandic and UK data sets identifies missense variants in SMO,
+                IL11, COL11A1 and 13 more new loci associated with osteoarthritis</text>
+        </passage>
+        <passage>
+            <infon key="fpage">230</infon>
+            <infon key="issue">2</infon>
+            <infon key="lpage">236</infon>
+            <infon key="name_0">surname:Tachmazidou;given-names:I</infon>
+            <infon key="name_1">surname:Hatzikotoulas;given-names:K</infon>
+            <infon key="name_2">surname:Southam;given-names:L</infon>
+            <infon key="name_3">surname:Esparza-Gordillo;given-names:J</infon>
+            <infon key="name_4">surname:Haberland;given-names:V</infon>
+            <infon key="name_5">surname:Zheng;given-names:J</infon>
+            <infon key="pub-id_doi">10.1038/s41588-018-0327-1</infon>
+            <infon key="pub-id_pmid">30664745</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nat Genet</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">51</infon>
+            <infon key="year">2019</infon>
+            <offset>22149</offset>
+            <text>Identification of new therapeutic targets for osteoarthritis through genome-wide
+                analyses of UK Biobank data</text>
+        </passage>
+        <passage>
+            <infon key="fpage">865</infon>
+            <infon key="issue">6</infon>
+            <infon key="lpage">884</infon>
+            <infon key="name_0">surname:Tachmazidou;given-names:I</infon>
+            <infon key="name_1">surname:Suveges;given-names:D</infon>
+            <infon key="name_2">surname:Min;given-names:JL</infon>
+            <infon key="name_3">surname:Ritchie;given-names:GRS</infon>
+            <infon key="name_4">surname:Steinberg;given-names:J</infon>
+            <infon key="name_5">surname:Walter;given-names:K</infon>
+            <infon key="pub-id_doi">10.1016/j.ajhg.2017.04.014</infon>
+            <infon key="pub-id_pmid">28552196</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Am J Hum Genet</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">100</infon>
+            <infon key="year">2017</infon>
+            <offset>22258</offset>
+            <text>Whole-genome sequencing coupled to imputation discovers genetic signals for
+                anthropometric traits</text>
+        </passage>
+        <passage>
+            <infon key="fpage">549</infon>
+            <infon key="issue">4</infon>
+            <infon key="lpage">558</infon>
+            <infon key="name_0">surname:Zengini;given-names:E</infon>
+            <infon key="name_1">surname:Hatzikotoulas;given-names:K</infon>
+            <infon key="name_2">surname:Tachmazidou;given-names:I</infon>
+            <infon key="name_3">surname:Steinberg;given-names:J</infon>
+            <infon key="name_4">surname:Hartwig;given-names:FP</infon>
+            <infon key="name_5">surname:Southam;given-names:L</infon>
+            <infon key="pub-id_doi">10.1038/s41588-018-0079-y</infon>
+            <infon key="pub-id_pmid">29559693</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nat Genet</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">50</infon>
+            <infon key="year">2018</infon>
+            <offset>22356</offset>
+            <text>Genome-wide analyses using UK Biobank data provide insights into the genetic
+                architecture of osteoarthritis</text>
+        </passage>
+        <passage>
+            <infon key="fpage">208</infon>
+            <infon key="issue">7482</infon>
+            <infon key="lpage">211</infon>
+            <infon key="name_0">surname:Francesconi;given-names:M</infon>
+            <infon key="name_1">surname:Lehner;given-names:B</infon>
+            <infon key="pub-id_doi">10.1038/nature12772</infon>
+            <infon key="pub-id_pmid">24270809</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nature</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">505</infon>
+            <infon key="year">2014</infon>
+            <offset>22464</offset>
+            <text>The effects of genetic variation on gene expression dynamics during development</text>
+        </passage>
+        <passage>
+            <infon key="fpage">636</infon>
+            <infon key="issue">5</infon>
+            <infon key="lpage">649</infon>
+            <infon key="name_0">surname:Aubourg;given-names:G</infon>
+            <infon key="name_1">surname:Rice;given-names:SJ</infon>
+            <infon key="name_2">surname:Bruce-Wootton;given-names:P</infon>
+            <infon key="name_3">surname:Loughlin;given-names:J</infon>
+            <infon key="pub-id_doi">10.1016/j.joca.2021.03.002</infon>
+            <infon key="pub-id_pmid">33722698</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Osteoarthritis Cartilage</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">30</infon>
+            <infon key="year">2022</infon>
+            <offset>22544</offset>
+            <text>Genetics of osteoarthritis</text>
+        </passage>
+        <passage>
+            <infon key="fpage">130</infon>
+            <infon key="issue">3</infon>
+            <infon key="lpage">138</infon>
+            <infon key="name_0">surname:Qi;given-names:X</infon>
+            <infon key="name_1">surname:Yu;given-names:F</infon>
+            <infon key="name_2">surname:Wen;given-names:Y</infon>
+            <infon key="name_3">surname:Li;given-names:P</infon>
+            <infon key="name_4">surname:Cheng;given-names:B</infon>
+            <infon key="name_5">surname:Ma;given-names:M</infon>
+            <infon key="pub-id_doi">10.1302/2046-3758.93.BJR-2019-0137.R1</infon>
+            <infon key="pub-id_pmid">32435465</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Bone Joint Res</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">9</infon>
+            <infon key="year">2020</infon>
+            <offset>22571</offset>
+            <text>Integration of transcriptome-wide association study and messenger RNA expression
+                profile to identify genes associated with osteoarthritis</text>
+        </passage>
+        <passage>
+            <infon key="fpage">1116</infon>
+            <infon key="issue">20</infon>
+            <infon key="name_0">surname:Wang;given-names:W</infon>
+            <infon key="name_1">surname:Ou;given-names:Z</infon>
+            <infon key="name_2">surname:Peng;given-names:J</infon>
+            <infon key="name_3">surname:Zhou;given-names:Y</infon>
+            <infon key="name_4">surname:Wang;given-names:N</infon>
+            <infon key="pub-id_doi">10.21037/atm-22-4471</infon>
+            <infon key="pub-id_pmid">36388797</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Ann Transl Med</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">10</infon>
+            <infon key="year">2022</infon>
+            <offset>22709</offset>
+            <text>A transcriptome-wide association study provides new insights into the etiology of
+                osteoarthritis</text>
+        </passage>
+        <passage>
+            <infon key="fpage">592</infon>
+            <infon key="issue">4</infon>
+            <infon key="lpage">599</infon>
+            <infon key="name_0">surname:Wainberg;given-names:M</infon>
+            <infon key="name_1">surname:Sinnott-Armstrong;given-names:N</infon>
+            <infon key="name_2">surname:Mancuso;given-names:N</infon>
+            <infon key="name_3">surname:Barbeira;given-names:AN</infon>
+            <infon key="name_4">surname:Knowles;given-names:DA</infon>
+            <infon key="name_5">surname:Golan;given-names:D</infon>
+            <infon key="pub-id_doi">10.1038/s41588-019-0385-z</infon>
+            <infon key="pub-id_pmid">30926968</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nat Genet</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">51</infon>
+            <infon key="year">2019</infon>
+            <offset>22806</offset>
+            <text>Opportunities and challenges for transcriptome-wide association studies</text>
+        </passage>
+        <passage>
+            <infon key="fpage">1593</infon>
+            <infon key="issue">11</infon>
+            <infon key="lpage">1599</infon>
+            <infon key="name_0">surname:Canela-Xandri;given-names:O</infon>
+            <infon key="name_1">surname:Rawlik;given-names:K</infon>
+            <infon key="name_2">surname:Tenesa;given-names:A</infon>
+            <infon key="pub-id_doi">10.1038/s41588-018-0248-z</infon>
+            <infon key="pub-id_pmid">30349118</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nat Genet</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">50</infon>
+            <infon key="year">2018</infon>
+            <offset>22878</offset>
+            <text>An atlas of genetic associations in UK Biobank</text>
+        </passage>
+        <passage>
+            <infon key="fpage">e1001779</infon>
+            <infon key="issue">3</infon>
+            <infon key="name_0">surname:Sudlow;given-names:C</infon>
+            <infon key="name_1">surname:Gallacher;given-names:J</infon>
+            <infon key="name_2">surname:Allen;given-names:N</infon>
+            <infon key="name_3">surname:Beral;given-names:V</infon>
+            <infon key="name_4">surname:Burton;given-names:P</infon>
+            <infon key="name_5">surname:Danesh;given-names:J</infon>
+            <infon key="pub-id_doi">10.1371/journal.pmed.1001779</infon>
+            <infon key="pub-id_pmid">25826379</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">PLoS Med</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">12</infon>
+            <infon key="year">2015</infon>
+            <offset>22925</offset>
+            <text>UK biobank: an open access resource for identifying the causes of a wide range of
+                complex diseases of middle and old age</text>
+        </passage>
+        <passage>
+            <infon key="fpage">245</infon>
+            <infon key="issue">3</infon>
+            <infon key="lpage">252</infon>
+            <infon key="name_0">surname:Gusev;given-names:A</infon>
+            <infon key="name_1">surname:Ko;given-names:A</infon>
+            <infon key="name_2">surname:Shi;given-names:H</infon>
+            <infon key="name_3">surname:Bhatia;given-names:G</infon>
+            <infon key="name_4">surname:Chung;given-names:W</infon>
+            <infon key="name_5">surname:Penninx;given-names:BW</infon>
+            <infon key="pub-id_doi">10.1038/ng.3506</infon>
+            <infon key="pub-id_pmid">26854917</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nat Genet</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">48</infon>
+            <infon key="year">2016</infon>
+            <offset>23046</offset>
+            <text>Integrative approaches for large-scale transcriptome-wide association studies</text>
+        </passage>
+        <passage>
+            <infon key="fpage">204</infon>
+            <infon key="issue">7675</infon>
+            <infon key="lpage">213</infon>
+            <infon key="name_0">surname:Battle;given-names:A</infon>
+            <infon key="name_1">surname:Brown;given-names:CD</infon>
+            <infon key="name_2">surname:Engelhardt;given-names:BE</infon>
+            <infon key="name_3">surname:Montgomery;given-names:SB</infon>
+            <infon key="pub-id_doi">10.1038/nature24277</infon>
+            <infon key="pub-id_pmid">29022597</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nature</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">550</infon>
+            <infon key="year">2017</infon>
+            <offset>23124</offset>
+            <text>Genetic effects on gene expression across human tissues</text>
+            <annotation id="1997">
+                <infon key="identifier">9606</infon>
+                <infon key="type">Species</infon>
+                <location offset="23166" length="5" />
+                <text>human</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="fpage">e1008973</infon>
+            <infon key="issue">4</infon>
+            <infon key="name_0">surname:Feng;given-names:H</infon>
+            <infon key="name_1">surname:Mancuso;given-names:N</infon>
+            <infon key="name_2">surname:Gusev;given-names:A</infon>
+            <infon key="name_3">surname:Majumdar;given-names:A</infon>
+            <infon key="name_4">surname:Major;given-names:M</infon>
+            <infon key="name_5">surname:Pasaniuc;given-names:B</infon>
+            <infon key="pub-id_doi">10.1371/journal.pgen.1008973</infon>
+            <infon key="pub-id_pmid">33831007</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">PLoS Genet</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">17</infon>
+            <infon key="year">2021</infon>
+            <offset>23180</offset>
+            <text>Leveraging expression from multiple tissues using sparse canonical correlation
+                analysis and aggregate tests improves the power of transcriptome-wide association
+                studies</text>
+        </passage>
+        <passage>
+            <infon key="fpage">27</infon>
+            <infon key="issue">1</infon>
+            <infon key="lpage">30</infon>
+            <infon key="name_0">surname:Kanehisa;given-names:M</infon>
+            <infon key="name_1">surname:Goto;given-names:S</infon>
+            <infon key="pub-id_doi">10.1093/nar/28.1.27</infon>
+            <infon key="pub-id_pmid">10592173</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nucleic Acids Res</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">28</infon>
+            <infon key="year">2000</infon>
+            <offset>23349</offset>
+            <text>KEGG: kyoto encyclopedia of genes and genomes</text>
+        </passage>
+        <passage>
+            <infon key="fpage">1982</infon>
+            <infon key="issue">12</infon>
+            <infon key="lpage">1991</infon>
+            <infon key="name_0">surname:Hill;given-names:DP</infon>
+            <infon key="name_1">surname:Blake;given-names:JA</infon>
+            <infon key="name_2">surname:Richardson;given-names:JE</infon>
+            <infon key="name_3">surname:Ringwald;given-names:M</infon>
+            <infon key="pub-id_doi">10.1101/gr.580102</infon>
+            <infon key="pub-id_pmid">12466303</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Genome Res</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">12</infon>
+            <infon key="year">2002</infon>
+            <offset>23395</offset>
+            <text>Extension and integration of the gene ontology (GO): combining GO vocabularies
+                with external vocabularies</text>
+        </passage>
+        <passage>
+            <infon key="fpage">1531</infon>
+            <infon key="issue">11</infon>
+            <infon key="lpage">1538</infon>
+            <infon key="name_0">surname:Fisch;given-names:KM</infon>
+            <infon key="name_1">surname:Gamini;given-names:R</infon>
+            <infon key="name_2">surname:Alvarez-Garcia;given-names:O</infon>
+            <infon key="name_3">surname:Akagi;given-names:R</infon>
+            <infon key="name_4">surname:Saito;given-names:M</infon>
+            <infon key="name_5">surname:Muramatsu;given-names:Y</infon>
+            <infon key="pub-id_doi">10.1016/j.joca.2018.07.012</infon>
+            <infon key="pub-id_pmid">30081074</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Osteoarthritis Cartilage</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">26</infon>
+            <infon key="year">2018</infon>
+            <offset>23501</offset>
+            <text>Identification of transcription factors responsible for dysregulated networks in
+                human osteoarthritis cartilage by global gene expression analysis</text>
+            <annotation id="1998">
+                <infon key="identifier">9606</infon>
+                <infon key="type">Species</infon>
+                <location offset="23582" length="5" />
+                <text>human</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="fpage">e103056</infon>
+            <infon key="issue">7</infon>
+            <infon key="name_0">surname:Ramos;given-names:YF</infon>
+            <infon key="name_1">surname:den Hollander;given-names:W</infon>
+            <infon key="name_2">surname:Bovee;given-names:JV</infon>
+            <infon key="name_3">surname:Bomer;given-names:N</infon>
+            <infon key="name_4">surname:van der Breggen;given-names:R</infon>
+            <infon key="name_5">surname:Lakenberg;given-names:N</infon>
+            <infon key="pub-id_doi">10.1371/journal.pone.0103056</infon>
+            <infon key="pub-id_pmid">25054223</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">PLoS ONE</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">9</infon>
+            <infon key="year">2014</infon>
+            <offset>23648</offset>
+            <text>Genes involved in the osteoarthritis process identified through genome wide
+                expression analysis in articular cartilage; the RAAK study</text>
+        </passage>
+        <passage>
+            <infon key="fpage">945</infon>
+            <infon key="issue">3</infon>
+            <infon key="lpage">9</infon>
+            <infon key="name_0">surname:Cheng;given-names:S</infon>
+            <infon key="name_1">surname:Ma;given-names:M</infon>
+            <infon key="name_2">surname:Zhang;given-names:L</infon>
+            <infon key="name_3">surname:Liu;given-names:L</infon>
+            <infon key="name_4">surname:Cheng;given-names:B</infon>
+            <infon key="name_5">surname:Qi;given-names:X</infon>
+            <infon key="pub-id_doi">10.1534/g3.119.400945</infon>
+            <infon key="pub-id_pmid">31937547</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">G3 (Bethesda, Md)</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">10</infon>
+            <infon key="year">2020</infon>
+            <offset>23783</offset>
+            <text>CGSEA: a flexible tool for evaluating the associations of chemicals with complex
+                diseases</text>
+        </passage>
+        <passage>
+            <infon key="fpage">56</infon>
+            <infon key="issue">1</infon>
+            <infon key="name_0">surname:Yao;given-names:Q</infon>
+            <infon key="name_1">surname:Wu;given-names:X</infon>
+            <infon key="name_2">surname:Tao;given-names:C</infon>
+            <infon key="name_3">surname:Gong;given-names:W</infon>
+            <infon key="name_4">surname:Chen;given-names:M</infon>
+            <infon key="name_5">surname:Qu;given-names:M</infon>
+            <infon key="pub-id_doi">10.1038/s41392-023-01330-w</infon>
+            <infon key="pub-id_pmid">36737426</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Signal Transduct Target Ther</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">8</infon>
+            <infon key="year">2023</infon>
+            <offset>23873</offset>
+            <text>Osteoarthritis: pathogenic signaling pathways and therapeutic targets</text>
+        </passage>
+        <passage>
+            <infon key="fpage">529</infon>
+            <infon key="issue">4</infon>
+            <infon key="lpage">533</infon>
+            <infon key="name_0">surname:Miyamoto;given-names:Y</infon>
+            <infon key="name_1">surname:Mabuchi;given-names:A</infon>
+            <infon key="name_2">surname:Shi;given-names:D</infon>
+            <infon key="name_3">surname:Kubo;given-names:T</infon>
+            <infon key="name_4">surname:Takatori;given-names:Y</infon>
+            <infon key="name_5">surname:Saito;given-names:S</infon>
+            <infon key="pub-id_doi">10.1038/2005</infon>
+            <infon key="pub-id_pmid">17384641</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nat Genet</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">39</infon>
+            <infon key="year">2007</infon>
+            <offset>23943</offset>
+            <text>A functional polymorphism in the 5' UTR of GDF5 is associated with susceptibility
+                to osteoarthritis</text>
+            <annotation id="1999">
+                <infon key="NCBI Homologene">468</infon>
+                <infon key="identifier">8200</infon>
+                <infon key="type">Gene</infon>
+                <location offset="23986" length="4" />
+                <text>GDF5</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="fpage">2055</infon>
+            <infon key="issue">7</infon>
+            <infon key="lpage">2064</infon>
+            <infon key="name_0">surname:Egli;given-names:RJ</infon>
+            <infon key="name_1">surname:Southam;given-names:L</infon>
+            <infon key="name_2">surname:Wilkins;given-names:JM</infon>
+            <infon key="name_3">surname:Lorenzen;given-names:I</infon>
+            <infon key="name_4">surname:Pombo-Suarez;given-names:M</infon>
+            <infon key="name_5">surname:Gonzalez;given-names:A</infon>
+            <infon key="pub-id_doi">10.1002/art.24616</infon>
+            <infon key="pub-id_pmid">19565498</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Arthritis Rheum</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">60</infon>
+            <infon key="year">2009</infon>
+            <offset>24043</offset>
+            <text>Functional analysis of the osteoarthritis susceptibility-associated GDF5
+                regulatory polymorphism</text>
+            <annotation id="2000">
+                <infon key="NCBI Homologene">468</infon>
+                <infon key="identifier">8200</infon>
+                <infon key="type">Gene</infon>
+                <location offset="24111" length="4" />
+                <text>GDF5</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="fpage">e12998</infon>
+            <infon key="issue">3</infon>
+            <infon key="name_0">surname:Sun;given-names:K</infon>
+            <infon key="name_1">surname:Guo;given-names:J</infon>
+            <infon key="name_2">surname:Yao;given-names:X</infon>
+            <infon key="name_3">surname:Guo;given-names:Z</infon>
+            <infon key="name_4">surname:Guo;given-names:F</infon>
+            <infon key="pub-id_doi">10.1111/cpr.12998</infon>
+            <infon key="pub-id_pmid">33522652</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Cell Prolif</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">54</infon>
+            <infon key="year">2021</infon>
+            <offset>24140</offset>
+            <text>Growth differentiation factor 5 in cartilage and osteoarthritis: A possible
+                therapeutic candidate</text>
+        </passage>
+        <passage>
+            <infon key="fpage">39</infon>
+            <infon key="issue">1</infon>
+            <infon key="lpage">48</infon>
+            <infon key="name_0">surname:Tuerlings;given-names:M</infon>
+            <infon key="name_1">surname:Janssen;given-names:GMC</infon>
+            <infon key="name_2">surname:Boone;given-names:I</infon>
+            <infon key="name_3">surname:van Hoolwerff;given-names:M</infon>
+            <infon key="name_4">surname:Rodriguez Ruiz;given-names:A</infon>
+            <infon key="name_5">surname:Houtman;given-names:E</infon>
+            <infon key="pub-id_doi">10.1016/j.joca.2022.09.009</infon>
+            <infon key="pub-id_pmid">36208715</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Osteoarthritis Cartilage</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">31</infon>
+            <infon key="year">2023</infon>
+            <offset>24238</offset>
+            <text>WWP2 confers risk to osteoarthritis by affecting cartilage matrix deposition via
+                hypoxia associated genes</text>
+            <annotation id="2001">
+                <infon key="NCBI Homologene">48490</infon>
+                <infon key="identifier">11060</infon>
+                <infon key="type">Gene</infon>
+                <location offset="24238" length="4" />
+                <text>WWP2</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="fpage">2429</infon>
+            <infon key="issue">1</infon>
+            <infon key="name_0">surname:Mokuda;given-names:S</infon>
+            <infon key="name_1">surname:Nakamichi;given-names:R</infon>
+            <infon key="name_2">surname:Matsuzaki;given-names:T</infon>
+            <infon key="name_3">surname:Ito;given-names:Y</infon>
+            <infon key="name_4">surname:Sato;given-names:T</infon>
+            <infon key="name_5">surname:Miyata;given-names:K</infon>
+            <infon key="pub-id_doi">10.1038/s41467-019-10177-1</infon>
+            <infon key="pub-id_pmid">31160553</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nat Commun</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">10</infon>
+            <infon key="year">2019</infon>
+            <offset>24344</offset>
+            <text>Wwp2 maintains cartilage homeostasis through regulation of Adamts5</text>
+            <annotation id="2002">
+                <infon key="NCBI Homologene">48490</infon>
+                <infon key="identifier">11060</infon>
+                <infon key="type">Gene</infon>
+                <location offset="24344" length="4" />
+                <text>Wwp2</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="fpage">54</infon>
+            <infon key="name_0">surname:Zhang;given-names:Y</infon>
+            <infon key="name_1">surname:Wang;given-names:F</infon>
+            <infon key="name_2">surname:Chen;given-names:G</infon>
+            <infon key="name_3">surname:He;given-names:R</infon>
+            <infon key="name_4">surname:Yang;given-names:L</infon>
+            <infon key="pub-id_doi">10.1186/s13578-019-0302-2</infon>
+            <infon key="pub-id_pmid">31304004</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Cell Biosci</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">9</infon>
+            <infon key="year">2019</infon>
+            <offset>24411</offset>
+            <text>LncRNA MALAT1 promotes osteoarthritis by modulating miR-150-5p/AKT3 axis</text>
+            <annotation id="2003">
+                <infon key="identifier">378938</infon>
+                <infon key="type">Gene</infon>
+                <location offset="24418" length="6" />
+                <text>MALAT1</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="fpage">113608</infon>
+            <infon key="name_0">surname:Feng;given-names:L</infon>
+            <infon key="name_1">surname:Yang;given-names:Z</infon>
+            <infon key="name_2">surname:Li;given-names:Y</infon>
+            <infon key="name_3">surname:Hou;given-names:N</infon>
+            <infon key="name_4">surname:Yang;given-names:B</infon>
+            <infon key="name_5">surname:Lu;given-names:X</infon>
+            <infon key="pub-id_doi">10.1016/j.biopha.2022.113608</infon>
+            <infon key="pub-id_pmid">36037785</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Biomed Pharmacother</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">154</infon>
+            <infon key="year">2022</infon>
+            <offset>24484</offset>
+            <text>Malat1 attenuated the rescuing effects of docosahexaenoic acid on osteoarthritis
+                treatment via repressing its chondroprotective and chondrogenesis activities</text>
+            <annotation id="2004">
+                <infon key="identifier">378938</infon>
+                <infon key="type">Gene</infon>
+                <location offset="24484" length="6" />
+                <text>Malat1</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="fpage">116801</infon>
+            <infon key="name_0">surname:Li;given-names:H</infon>
+            <infon key="name_1">surname:Xie;given-names:S</infon>
+            <infon key="name_2">surname:Li;given-names:H</infon>
+            <infon key="name_3">surname:Zhang;given-names:R</infon>
+            <infon key="name_4">surname:Zhang;given-names:H</infon>
+            <infon key="pub-id_doi">10.1016/j.lfs.2019.116801</infon>
+            <infon key="pub-id_pmid">31472145</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Life Sci</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">254</infon>
+            <infon key="year">2020</infon>
+            <offset>24642</offset>
+            <text>LncRNA MALAT1 mediates proliferation of LPS treated-articular chondrocytes by
+                targeting the miR-146a-PI3K/Akt/mTOR axis</text>
+            <annotation id="2005">
+                <infon key="identifier">378938</infon>
+                <infon key="type">Gene</infon>
+                <location offset="24649" length="6" />
+                <text>MALAT1</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="fpage">2887</infon>
+            <infon key="issue">12</infon>
+            <infon key="lpage">2895</infon>
+            <infon key="name_0">surname:Peterson;given-names:CW</infon>
+            <infon key="name_1">surname:Stoltzman;given-names:CA</infon>
+            <infon key="name_2">surname:Sighinolfi;given-names:MP</infon>
+            <infon key="name_3">surname:Han;given-names:KS</infon>
+            <infon key="name_4">surname:Ayer;given-names:DE</infon>
+            <infon key="pub-id_doi">10.1128/MCB.01613-09</infon>
+            <infon key="pub-id_pmid">20385767</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Mol Cell Biol</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">30</infon>
+            <infon key="year">2010</infon>
+            <offset>24762</offset>
+            <text>Glucose controls nuclear accumulation, promoter binding, and transcriptional
+                activity of the MondoA-Mlx heterodimer</text>
+        </passage>
+        <passage>
+            <infon key="fpage">461</infon>
+            <infon key="issue">3</infon>
+            <infon key="lpage">472</infon>
+            <infon key="name_0">surname:Richards;given-names:P</infon>
+            <infon key="name_1">surname:Rachdi;given-names:L</infon>
+            <infon key="name_2">surname:Oshima;given-names:M</infon>
+            <infon key="name_3">surname:Marchetti;given-names:P</infon>
+            <infon key="name_4">surname:Bugliani;given-names:M</infon>
+            <infon key="name_5">surname:Armanet;given-names:M</infon>
+            <infon key="pub-id_doi">10.2337/db17-0595</infon>
+            <infon key="pub-id_pmid">29282201</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Diabetes</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">67</infon>
+            <infon key="year">2018</infon>
+            <offset>24878</offset>
+            <text>MondoA is an essential glucose-responsive transcription factor in human pancreatic
+                beta-cells</text>
+            <annotation id="2006">
+                <infon key="identifier">9606</infon>
+                <infon key="type">Species</infon>
+                <location offset="24944" length="5" />
+                <text>human</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="fpage">3567</infon>
+            <infon key="issue">9</infon>
+            <infon key="lpage">3579</infon>
+            <infon key="name_0">surname:Ahn;given-names:B</infon>
+            <infon key="name_1">surname:Soundarapandian;given-names:MM</infon>
+            <infon key="name_2">surname:Sessions;given-names:H</infon>
+            <infon key="name_3">surname:Peddibhotla;given-names:S</infon>
+            <infon key="name_4">surname:Roth;given-names:GP</infon>
+            <infon key="name_5">surname:Li;given-names:JL</infon>
+            <infon key="pub-id_doi">10.1172/JCI87382</infon>
+            <infon key="pub-id_pmid">27500491</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">J Clin Invest</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">126</infon>
+            <infon key="year">2016</infon>
+            <offset>24972</offset>
+            <text>MondoA coordinately regulates skeletal myocyte lipid homeostasis and insulin
+                signaling</text>
+        </passage>
+        <passage>
+            <infon key="section_type">REF</infon>
+            <infon key="type">ref</infon>
+            <offset>25059</offset>
+            <text>Weger M, Weger BD, Schink A, Takamiya M, Stegmaier J, Gobet C, et al. MondoA
+                regulates gene expression in cholesterol biosynthesis-associated pathways required
+                for zebrafish epiboly. Elife. 2020;9:57068.</text>
+            <annotation id="2007">
+                <infon key="identifier">7955</infon>
+                <infon key="type">Species</infon>
+                <location offset="25223" length="9" />
+                <text>zebrafish</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="fpage">1251</infon>
+            <infon key="issue">6</infon>
+            <infon key="lpage">64.e9</infon>
+            <infon key="name_0">surname:Mejhert;given-names:N</infon>
+            <infon key="name_1">surname:Kuruvilla;given-names:L</infon>
+            <infon key="name_2">surname:Gabriel;given-names:KR</infon>
+            <infon key="name_3">surname:Elliott;given-names:SD</infon>
+            <infon key="name_4">surname:Guie;given-names:MA</infon>
+            <infon key="name_5">surname:Wang;given-names:H</infon>
+            <infon key="pub-id_doi">10.1016/j.molcel.2020.01.014</infon>
+            <infon key="pub-id_pmid">32023484</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Mol Cell</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">77</infon>
+            <infon key="year">2020</infon>
+            <offset>25263</offset>
+            <text>Partitioning of MLX-family transcription factors to lipid droplets regulates
+                metabolic gene expression</text>
+        </passage>
+        <passage>
+            <infon key="fpage">110444</infon>
+            <infon key="issue">9</infon>
+            <infon key="name_0">surname:Yamamoto-Imoto;given-names:H</infon>
+            <infon key="name_1">surname:Minami;given-names:S</infon>
+            <infon key="name_2">surname:Shioda;given-names:T</infon>
+            <infon key="name_3">surname:Yamashita;given-names:Y</infon>
+            <infon key="name_4">surname:Sakai;given-names:S</infon>
+            <infon key="name_5">surname:Maeda;given-names:S</infon>
+            <infon key="pub-id_doi">10.1016/j.celrep.2022.110444</infon>
+            <infon key="pub-id_pmid">35235784</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Cell Rep</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">38</infon>
+            <infon key="year">2022</infon>
+            <offset>25366</offset>
+            <text>Age-associated decline of MondoA drives cellular senescence through impaired
+                autophagy and mitochondrial homeostasis</text>
+        </passage>
+        <passage>
+            <infon key="fpage">18192</infon>
+            <infon key="issue">10</infon>
+            <infon key="lpage">18205</infon>
+            <infon key="name_0">surname:Feng;given-names:K</infon>
+            <infon key="name_1">surname:Chen;given-names:Z</infon>
+            <infon key="name_2">surname:Pengcheng;given-names:L</infon>
+            <infon key="name_3">surname:Zhang;given-names:S</infon>
+            <infon key="name_4">surname:Wang;given-names:X</infon>
+            <infon key="pub-id_doi">10.1002/jcp.28452</infon>
+            <infon key="pub-id_pmid">30854676</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">J Cell Physiol</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">234</infon>
+            <infon key="year">2019</infon>
+            <offset>25483</offset>
+            <text>Quercetin attenuates oxidative stress-induced apoptosis via SIRT1/AMPK-mediated
+                inhibition of ER stress in rat chondrocytes and prevents the progression of
+                osteoarthritis in a rat model</text>
+            <annotation id="2008">
+                <infon key="identifier">10116</infon>
+                <infon key="type">Species</infon>
+                <location offset="25590" length="3" />
+                <text>rat</text>
+            </annotation>
+            <annotation id="2009">
+                <infon key="identifier">10116</infon>
+                <infon key="type">Species</infon>
+                <location offset="25659" length="3" />
+                <text>rat</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="fpage">6006</infon>
+            <infon key="issue">15</infon>
+            <infon key="lpage">6027</infon>
+            <infon key="name_0">surname:Gil;given-names:TH</infon>
+            <infon key="name_1">surname:Zheng;given-names:H</infon>
+            <infon key="name_2">surname:Lee;given-names:HG</infon>
+            <infon key="name_3">surname:Shin;given-names:JW</infon>
+            <infon key="name_4">surname:Hwang;given-names:SW</infon>
+            <infon key="name_5">surname:Jang;given-names:KM</infon>
+            <infon key="pub-id_doi">10.18632/aging.204204</infon>
+            <infon key="pub-id_pmid">35951358</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Aging (Albany NY)</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">14</infon>
+            <infon key="year">2022</infon>
+            <offset>25669</offset>
+            <text>Senolytic drugs relieve pain by reducing peripheral nociceptive signaling without
+                modifying joint tissue damage in spontaneous osteoarthritis</text>
+        </passage>
+        <passage>
+            <infon key="fpage">1585</infon>
+            <infon key="lpage">91</infon>
+            <infon key="name_0">surname:Qiu;given-names:L</infon>
+            <infon key="name_1">surname:Luo;given-names:Y</infon>
+            <infon key="name_2">surname:Chen;given-names:X</infon>
+            <infon key="pub-id_doi">10.1016/j.biopha.2018.05.003</infon>
+            <infon key="pub-id_pmid">29864946</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Biomed Pharmacother</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">103</infon>
+            <infon key="year">2018</infon>
+            <offset>25811</offset>
+            <text>Quercetin attenuates mitochondrial dysfunction and biogenesis via upregulated
+                AMPK/SIRT1 signaling pathway in OA rats</text>
+            <annotation id="2010">
+                <infon key="identifier">10116</infon>
+                <infon key="type">Species</infon>
+                <location offset="25924" length="4" />
+                <text>rats</text>
+            </annotation>
+        </passage>
+        <passage>
+            <infon key="fpage">e22951</infon>
+            <infon key="issue">2</infon>
+            <infon key="name_0">surname:Wang;given-names:Q</infon>
+            <infon key="name_1">surname:Ying;given-names:L</infon>
+            <infon key="name_2">surname:Wei;given-names:B</infon>
+            <infon key="name_3">surname:Ji;given-names:Y</infon>
+            <infon key="name_4">surname:Xu;given-names:Y</infon>
+            <infon key="pub-id_doi">10.1002/jbt.22951</infon>
+            <infon key="pub-id_pmid">34791735</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">J Biochem Mol Toxicol</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">36</infon>
+            <infon key="year">2022</infon>
+            <offset>25929</offset>
+            <text>Effects of quercetin on apoptosis and extracellular matrix degradation of
+                chondrocytes induced by oxidative stress-mediated pyroptosis</text>
+        </passage>
+        <passage>
+            <infon key="section_type">REF</infon>
+            <infon key="type">ref</infon>
+            <offset>26064</offset>
+            <text>Xu B, Huang W. Effect and mechanisms of quercetin on the treatment of
+                osteoarthritis: A preliminary pre-clinical study. Asian J Surg. 2023;46(5):2132-4.</text>
+        </passage>
+        <passage>
+            <infon key="fpage">862</infon>
+            <infon key="issue">4</infon>
+            <infon key="lpage">869</infon>
+            <infon key="name_0">surname:Kanzaki;given-names:N</infon>
+            <infon key="name_1">surname:Saito;given-names:K</infon>
+            <infon key="name_2">surname:Maeda;given-names:A</infon>
+            <infon key="name_3">surname:Kitagawa;given-names:Y</infon>
+            <infon key="name_4">surname:Kiso;given-names:Y</infon>
+            <infon key="name_5">surname:Watanabe;given-names:K</infon>
+            <infon key="pub-id_doi">10.1002/jsfa.4660</infon>
+            <infon key="pub-id_pmid">21969261</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">J Sci Food Agric</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">92</infon>
+            <infon key="year">2012</infon>
+            <offset>26219</offset>
+            <text>Effect of a dietary supplement containing glucosamine hydrochloride, chondroitin
+                sulfate and quercetin glycosides on symptomatic knee osteoarthritis: a randomized,
+                double-blind, placebo-controlled study</text>
+        </passage>
+        <passage>
+            <infon key="fpage">127</infon>
+            <infon key="issue">2</infon>
+            <infon key="lpage">133</infon>
+            <infon key="name_0">surname:Wang;given-names:KC</infon>
+            <infon key="name_1">surname:Lin;given-names:YF</infon>
+            <infon key="name_2">surname:Qin;given-names:CH</infon>
+            <infon key="name_3">surname:Chen;given-names:TL</infon>
+            <infon key="name_4">surname:Chen;given-names:CH</infon>
+            <infon key="pub-id_doi">10.1016/j.toxlet.2010.06.007</infon>
+            <infon key="pub-id_pmid">20600708</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Toxicol Lett</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">198</infon>
+            <infon key="year">2010</infon>
+            <offset>26422</offset>
+            <text>Bisphenol-A interferes with estradiol-mediated protection in osteoarthritic
+                chondrocytes</text>
+        </passage>
+        <passage>
+            <infon key="fpage">103307</infon>
+            <infon key="name_0">surname:Yessica Eduviges;given-names:ZC</infon>
+            <infon key="name_1">surname:Martinez-Nava;given-names:G</infon>
+            <infon key="name_2">surname:Reyes-Hinojosa;given-names:D</infon>
+            <infon key="name_3">surname:Mendoza-Soto;given-names:L</infon>
+            <infon key="name_4">surname:Fernandez-Torres;given-names:J</infon>
+            <infon key="name_5">surname:Lopez-Reyes;given-names:A</infon>
+            <infon key="pub-id_doi">10.1016/j.etap.2019.103307</infon>
+            <infon key="pub-id_pmid">31830724</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Environ Toxicol Pharmacol</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">74</infon>
+            <infon key="year">2020</infon>
+            <offset>26511</offset>
+            <text>Impact of cadmium toxicity on cartilage loss in a 3D in vitro model</text>
+        </passage>
+        <passage>
+            <infon key="fpage">33</infon>
+            <infon key="issue">15</infon>
+            <infon key="lpage">40</infon>
+            <infon key="name_0">surname:Attia;given-names:A</infon>
+            <infon key="name_1">surname:Attalla;given-names:S</infon>
+            <infon key="name_2">surname:Shaat;given-names:R</infon>
+            <infon key="name_3">surname:El-Dafrawy;given-names:M</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Adv Environ Biol</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">8</infon>
+            <infon key="year">2014</infon>
+            <offset>26579</offset>
+            <text>A study of the toxic effects of some environmental pollutants and cigarette
+                smoking in the development of osteoarthritis</text>
+        </passage>
+        <relation id="R1">
+            <infon key="score">0.9928</infon>
+            <infon key="role1">Chemical|MESH:D011794</infon>
+            <infon key="role2">Disease|MESH:D010003</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R2">
+            <infon key="score">0.9996</infon>
+            <infon key="role1">Disease|MESH:D020370</infon>
+            <infon key="role2">Gene|11060</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R3">
+            <infon key="score">0.9996</infon>
+            <infon key="role1">Disease|MESH:D020370</infon>
+            <infon key="role2">Gene|4010</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R4">
+            <infon key="score">0.9861</infon>
+            <infon key="role1">Disease|MESH:D010003</infon>
+            <infon key="role2">Gene|4052</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R5">
+            <infon key="score">0.9901</infon>
+            <infon key="role1">Disease|MESH:D010003</infon>
+            <infon key="role2">Gene|5744</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R6">
+            <infon key="score">0.9883</infon>
+            <infon key="role1">Disease|MESH:D010003</infon>
+            <infon key="role2">Gene|11060</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R7">
+            <infon key="score">0.9995</infon>
+            <infon key="role1">Disease|MESH:D020370</infon>
+            <infon key="role2">Gene|1394</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R8">
+            <infon key="score">0.9996</infon>
+            <infon key="role1">Disease|MESH:D015207</infon>
+            <infon key="role2">Gene|11060</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R9">
+            <infon key="score">0.9996</infon>
+            <infon key="role1">Disease|MESH:D015207</infon>
+            <infon key="role2">Gene|4010</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R10">
+            <infon key="score">0.9996</infon>
+            <infon key="role1">Disease|MESH:D020370</infon>
+            <infon key="role2">Gene|5744</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R11">
+            <infon key="score">0.9996</infon>
+            <infon key="role1">Disease|MESH:D015207</infon>
+            <infon key="role2">Gene|5744</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R12">
+            <infon key="score">0.9936</infon>
+            <infon key="role1">Chemical|MESH:D019256</infon>
+            <infon key="role2">Disease|MESH:D010003</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R13">
+            <infon key="score">0.9996</infon>
+            <infon key="role1">Disease|MESH:D010003</infon>
+            <infon key="role2">Gene|7040</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R14">
+            <infon key="score">0.9996</infon>
+            <infon key="role1">Disease|MESH:D015207</infon>
+            <infon key="role2">Gene|4052</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R15">
+            <infon key="score">0.9942</infon>
+            <infon key="role1">Chemical|MESH:C006780</infon>
+            <infon key="role2">Disease|MESH:D010003</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R16">
+            <infon key="score">0.9979</infon>
+            <infon key="role1">Disease|MESH:D010003</infon>
+            <infon key="role2">Gene|4010</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R17">
+            <infon key="score">0.9996</infon>
+            <infon key="role1">Disease|MESH:D015207</infon>
+            <infon key="role2">Gene|1394</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R18">
+            <infon key="score">0.9991</infon>
+            <infon key="role1">Chemical|MESH:D006820</infon>
+            <infon key="role2">Disease|MESH:D010003</infon>
+            <infon key="type">Association</infon>
+        </relation>
+        <relation id="R19">
+            <infon key="score">0.9995</infon>
+            <infon key="role1">Disease|MESH:D020370</infon>
+            <infon key="role2">Gene|4052</infon>
+            <infon key="type">Association</infon>
+        </relation> -->
+    </document>
+</collection>
